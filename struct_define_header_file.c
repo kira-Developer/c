@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
-#define Name "abdullh\n"
+#define Name "kira\n"
 #define sum(a, b) (printf("%i\n" , a + b))
 
 

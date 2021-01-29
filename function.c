@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 int my_func(int a , int z );
 int my_func2(char *name);

@@ -17,6 +17,9 @@ switch(c)
     case 'C':
         printf("C");
         break;
+    case 'D':
+        printf("D");
+        break;
     default:
         printf("None");
         break;

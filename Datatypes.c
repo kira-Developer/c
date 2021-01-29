@@ -16,7 +16,7 @@ long double 10
 
 int main(){
     int number = 1;
-    char chars = 'A';
+    char chars = 'K';
     float floatNumber = 12.10;
     printf("%i\n" , number);
     printf("%c\n", chars);
