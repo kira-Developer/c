@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/kira/Desktop/C/main.c
+stdio.h
+-
+mysql/mysql.h
+-
+
+C:/vcpkg/installed/x86-windows/include/mysql/ma_list.h
+
+C:/vcpkg/installed/x86-windows/include/mysql/mariadb_com.h
+
+C:/vcpkg/installed/x86-windows/include/mysql/mariadb_ctype.h
+ctype.h
+-
+
+C:/vcpkg/installed/x86-windows/include/mysql/mariadb_stmt.h
+
+C:/vcpkg/installed/x86-windows/include/mysql/mariadb_version.h
+custom_conf.h
+-
+
+C:/vcpkg/installed/x86-windows/include/mysql/mysql.h
+stdarg.h
+-
+sys/types.h
+-
+mariadb_com.h
+C:/vcpkg/installed/x86-windows/include/mysql/mariadb_com.h
+mariadb_version.h
+C:/vcpkg/installed/x86-windows/include/mysql/mariadb_version.h
+ma_list.h
+C:/vcpkg/installed/x86-windows/include/mysql/ma_list.h
+mariadb_ctype.h
+C:/vcpkg/installed/x86-windows/include/mysql/mariadb_ctype.h
+mariadb_stmt.h
+C:/vcpkg/installed/x86-windows/include/mysql/mariadb_stmt.h
+

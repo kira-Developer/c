@@ -1,0 +1,4 @@
+C:/Users/kira/Desktop/C/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/kira/Desktop/C/cmake-build-debug/CMakeFiles/Glfw.dir
+C:/Users/kira/Desktop/C/cmake-build-debug/CMakeFiles/Query.dir
+C:/Users/kira/Desktop/C/cmake-build-debug/CMakeFiles/edit_cache.dir

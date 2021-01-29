@@ -1,0 +1,10 @@
+^C:\USERS\KIRA\DESKTOP\C\BUILD\CMAKEFILES\D6B42DC30AC065B133784A37FA390822\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/kira/Desktop/C -BC:/Users/kira/Desktop/C/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/kira/Desktop/C/build/CTest.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

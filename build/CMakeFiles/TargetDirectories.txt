@@ -1,0 +1,4 @@
+C:/Users/kira/Desktop/C/build/CMakeFiles/Glfw.dir
+C:/Users/kira/Desktop/C/build/CMakeFiles/Main.dir
+C:/Users/kira/Desktop/C/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/kira/Desktop/C/build/CMakeFiles/ZERO_CHECK.dir
