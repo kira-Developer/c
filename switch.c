@@ -5,7 +5,7 @@ int main()
 {
 char c;
 printf("C:");
-scanf("%c",&c);
+scanf_s("%c",&c);
 switch(c)
 {
     case 'A':

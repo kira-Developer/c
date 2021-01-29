@@ -11,13 +11,13 @@ void yinforomation(struct information *info);
 int main() {
     printf("Your Name Is : ");
     char name[30];
-    scanf("%s", name);
+    scanf_s("%s", name);
     info.name = name;
     printf("Your Age Is : ");
-    scanf("%i" , &info.age);
+    scanf_s("%i" , &info.age);
     printf("Your Profession Is : ");
     char profession[30];
-    scanf("%s", profession);
+    scanf_s("%s", profession);
     info.profession = profession;
     yinforomation(&info);
 

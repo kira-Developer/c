@@ -5,7 +5,7 @@ int main ()
 {
     int number;
     printf("get number value : ");
-    scanf("%i" ,&number);
+    scanf_s("%i" ,&number);
     printf("%i", number);
     return 0;
 }
