@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Glfw.dir/glfw.c.obj"
+  "CMakeFiles/Glfw.dir/Glfw.c.obj"
   "Glfw.exe"
   "Glfw.exe.manifest"
   "Glfw.lib"

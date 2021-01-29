@@ -60,17 +60,6 @@ CMAKE_BINARY_DIR = C:\Users\kira\Desktop\C\cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	echo >nul && "C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache\fast: rebuild_cache
-
-.PHONY : rebuild_cache\fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -81,6 +70,17 @@ edit_cache:
 edit_cache\fast: edit_cache
 
 .PHONY : edit_cache\fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	echo >nul && "C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache\fast: rebuild_cache
+
+.PHONY : rebuild_cache\fast
 
 # The main all target
 all: cmake_check_build_system
@@ -140,59 +140,299 @@ Query\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Query.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Query.dir\build
 .PHONY : Query\fast
 
-glfw.obj: glfw.c.obj
+#=============================================================================
+# Target rules for targets named Variables
 
-.PHONY : glfw.obj
+# Build rule for target.
+Variables: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Variables
+.PHONY : Variables
+
+# fast build rule for target.
+Variables\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Variables.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Variables.dir\build
+.PHONY : Variables\fast
+
+#=============================================================================
+# Target rules for targets named BuildingABasicCalculator
+
+# Build rule for target.
+BuildingABasicCalculator: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) BuildingABasicCalculator
+.PHONY : BuildingABasicCalculator
+
+# fast build rule for target.
+BuildingABasicCalculator\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BuildingABasicCalculator.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BuildingABasicCalculator.dir\build
+.PHONY : BuildingABasicCalculator\fast
+
+#=============================================================================
+# Target rules for targets named Constants
+
+# Build rule for target.
+Constants: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Constants
+.PHONY : Constants
+
+# fast build rule for target.
+Constants\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Constants.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Constants.dir\build
+.PHONY : Constants\fast
+
+#=============================================================================
+# Target rules for targets named Printf
+
+# Build rule for target.
+Printf: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Printf
+.PHONY : Printf
+
+# fast build rule for target.
+Printf\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Printf.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Printf.dir\build
+.PHONY : Printf\fast
+
+#=============================================================================
+# Target rules for targets named GettingUserInput
+
+# Build rule for target.
+GettingUserInput: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) GettingUserInput
+.PHONY : GettingUserInput
+
+# fast build rule for target.
+GettingUserInput\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GettingUserInput.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GettingUserInput.dir\build
+.PHONY : GettingUserInput\fast
+
+#=============================================================================
+# Target rules for targets named WorkingWithNumbers
+
+# Build rule for target.
+WorkingWithNumbers: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) WorkingWithNumbers
+.PHONY : WorkingWithNumbers
+
+# fast build rule for target.
+WorkingWithNumbers\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WorkingWithNumbers.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\WorkingWithNumbers.dir\build
+.PHONY : WorkingWithNumbers\fast
+
+BuildingABasicCalculator.obj: BuildingABasicCalculator.c.obj
+
+.PHONY : BuildingABasicCalculator.obj
 
 # target to build an object file
-glfw.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Glfw.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Glfw.dir\glfw.c.obj
-.PHONY : glfw.c.obj
+BuildingABasicCalculator.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BuildingABasicCalculator.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BuildingABasicCalculator.dir\BuildingABasicCalculator.c.obj
+.PHONY : BuildingABasicCalculator.c.obj
 
-glfw.i: glfw.c.i
+BuildingABasicCalculator.i: BuildingABasicCalculator.c.i
 
-.PHONY : glfw.i
+.PHONY : BuildingABasicCalculator.i
 
 # target to preprocess a source file
-glfw.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Glfw.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Glfw.dir\glfw.c.i
-.PHONY : glfw.c.i
+BuildingABasicCalculator.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BuildingABasicCalculator.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BuildingABasicCalculator.dir\BuildingABasicCalculator.c.i
+.PHONY : BuildingABasicCalculator.c.i
 
-glfw.s: glfw.c.s
+BuildingABasicCalculator.s: BuildingABasicCalculator.c.s
 
-.PHONY : glfw.s
+.PHONY : BuildingABasicCalculator.s
 
 # target to generate assembly for a file
-glfw.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Glfw.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Glfw.dir\glfw.c.s
-.PHONY : glfw.c.s
+BuildingABasicCalculator.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BuildingABasicCalculator.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BuildingABasicCalculator.dir\BuildingABasicCalculator.c.s
+.PHONY : BuildingABasicCalculator.c.s
 
-query.obj: query.c.obj
+Constants.obj: Constants.c.obj
 
-.PHONY : query.obj
+.PHONY : Constants.obj
 
 # target to build an object file
-query.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Query.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Query.dir\query.c.obj
-.PHONY : query.c.obj
+Constants.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Constants.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Constants.dir\Constants.c.obj
+.PHONY : Constants.c.obj
 
-query.i: query.c.i
+Constants.i: Constants.c.i
 
-.PHONY : query.i
+.PHONY : Constants.i
 
 # target to preprocess a source file
-query.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Query.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Query.dir\query.c.i
-.PHONY : query.c.i
+Constants.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Constants.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Constants.dir\Constants.c.i
+.PHONY : Constants.c.i
 
-query.s: query.c.s
+Constants.s: Constants.c.s
 
-.PHONY : query.s
+.PHONY : Constants.s
 
 # target to generate assembly for a file
-query.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Query.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Query.dir\query.c.s
-.PHONY : query.c.s
+Constants.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Constants.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Constants.dir\Constants.c.s
+.PHONY : Constants.c.s
+
+GettingUserInput.obj: GettingUserInput.c.obj
+
+.PHONY : GettingUserInput.obj
+
+# target to build an object file
+GettingUserInput.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GettingUserInput.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GettingUserInput.dir\GettingUserInput.c.obj
+.PHONY : GettingUserInput.c.obj
+
+GettingUserInput.i: GettingUserInput.c.i
+
+.PHONY : GettingUserInput.i
+
+# target to preprocess a source file
+GettingUserInput.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GettingUserInput.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GettingUserInput.dir\GettingUserInput.c.i
+.PHONY : GettingUserInput.c.i
+
+GettingUserInput.s: GettingUserInput.c.s
+
+.PHONY : GettingUserInput.s
+
+# target to generate assembly for a file
+GettingUserInput.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GettingUserInput.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GettingUserInput.dir\GettingUserInput.c.s
+.PHONY : GettingUserInput.c.s
+
+Glfw.obj: Glfw.c.obj
+
+.PHONY : Glfw.obj
+
+# target to build an object file
+Glfw.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Glfw.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Glfw.dir\Glfw.c.obj
+.PHONY : Glfw.c.obj
+
+Glfw.i: Glfw.c.i
+
+.PHONY : Glfw.i
+
+# target to preprocess a source file
+Glfw.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Glfw.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Glfw.dir\Glfw.c.i
+.PHONY : Glfw.c.i
+
+Glfw.s: Glfw.c.s
+
+.PHONY : Glfw.s
+
+# target to generate assembly for a file
+Glfw.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Glfw.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Glfw.dir\Glfw.c.s
+.PHONY : Glfw.c.s
+
+Printf.obj: Printf.c.obj
+
+.PHONY : Printf.obj
+
+# target to build an object file
+Printf.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Printf.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Printf.dir\Printf.c.obj
+.PHONY : Printf.c.obj
+
+Printf.i: Printf.c.i
+
+.PHONY : Printf.i
+
+# target to preprocess a source file
+Printf.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Printf.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Printf.dir\Printf.c.i
+.PHONY : Printf.c.i
+
+Printf.s: Printf.c.s
+
+.PHONY : Printf.s
+
+# target to generate assembly for a file
+Printf.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Printf.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Printf.dir\Printf.c.s
+.PHONY : Printf.c.s
+
+Query.obj: Query.c.obj
+
+.PHONY : Query.obj
+
+# target to build an object file
+Query.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Query.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Query.dir\Query.c.obj
+.PHONY : Query.c.obj
+
+Query.i: Query.c.i
+
+.PHONY : Query.i
+
+# target to preprocess a source file
+Query.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Query.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Query.dir\Query.c.i
+.PHONY : Query.c.i
+
+Query.s: Query.c.s
+
+.PHONY : Query.s
+
+# target to generate assembly for a file
+Query.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Query.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Query.dir\Query.c.s
+.PHONY : Query.c.s
+
+Variables.obj: Variables.c.obj
+
+.PHONY : Variables.obj
+
+# target to build an object file
+Variables.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Variables.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Variables.dir\Variables.c.obj
+.PHONY : Variables.c.obj
+
+Variables.i: Variables.c.i
+
+.PHONY : Variables.i
+
+# target to preprocess a source file
+Variables.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Variables.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Variables.dir\Variables.c.i
+.PHONY : Variables.c.i
+
+Variables.s: Variables.c.s
+
+.PHONY : Variables.s
+
+# target to generate assembly for a file
+Variables.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Variables.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Variables.dir\Variables.c.s
+.PHONY : Variables.c.s
+
+WorkingWithNumbers.obj: WorkingWithNumbers.c.obj
+
+.PHONY : WorkingWithNumbers.obj
+
+# target to build an object file
+WorkingWithNumbers.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WorkingWithNumbers.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\WorkingWithNumbers.dir\WorkingWithNumbers.c.obj
+.PHONY : WorkingWithNumbers.c.obj
+
+WorkingWithNumbers.i: WorkingWithNumbers.c.i
+
+.PHONY : WorkingWithNumbers.i
+
+# target to preprocess a source file
+WorkingWithNumbers.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WorkingWithNumbers.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\WorkingWithNumbers.dir\WorkingWithNumbers.c.i
+.PHONY : WorkingWithNumbers.c.i
+
+WorkingWithNumbers.s: WorkingWithNumbers.c.s
+
+.PHONY : WorkingWithNumbers.s
+
+# target to generate assembly for a file
+WorkingWithNumbers.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WorkingWithNumbers.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\WorkingWithNumbers.dir\WorkingWithNumbers.c.s
+.PHONY : WorkingWithNumbers.c.s
 
 # Help Target
 help:
@@ -202,14 +442,38 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... BuildingABasicCalculator
+	@echo ... Constants
+	@echo ... GettingUserInput
 	@echo ... Glfw
+	@echo ... Printf
 	@echo ... Query
-	@echo ... glfw.obj
-	@echo ... glfw.i
-	@echo ... glfw.s
-	@echo ... query.obj
-	@echo ... query.i
-	@echo ... query.s
+	@echo ... Variables
+	@echo ... WorkingWithNumbers
+	@echo ... BuildingABasicCalculator.obj
+	@echo ... BuildingABasicCalculator.i
+	@echo ... BuildingABasicCalculator.s
+	@echo ... Constants.obj
+	@echo ... Constants.i
+	@echo ... Constants.s
+	@echo ... GettingUserInput.obj
+	@echo ... GettingUserInput.i
+	@echo ... GettingUserInput.s
+	@echo ... Glfw.obj
+	@echo ... Glfw.i
+	@echo ... Glfw.s
+	@echo ... Printf.obj
+	@echo ... Printf.i
+	@echo ... Printf.s
+	@echo ... Query.obj
+	@echo ... Query.i
+	@echo ... Query.s
+	@echo ... Variables.obj
+	@echo ... Variables.i
+	@echo ... Variables.s
+	@echo ... WorkingWithNumbers.obj
+	@echo ... WorkingWithNumbers.i
+	@echo ... WorkingWithNumbers.s
 .PHONY : help
 
 

@@ -16,8 +16,11 @@ long double 10
 
 int main(){
     int number = 1;
-    char chars = 'K';
+    char grade = 'K';
     float floatNumber = 12.10;
+    double gpa = 3.6;
+    char phrase[] = "Kira Developer"
+
     printf("%i\n" , number);
     printf("%c\n", chars);
     printf("%f\n" , floatNumber);

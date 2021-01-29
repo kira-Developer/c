@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Query.dir/query.c.obj"
+  "CMakeFiles/Query.dir/Query.c.obj"
   "Query.exe"
   "Query.exe.manifest"
   "Query.lib"

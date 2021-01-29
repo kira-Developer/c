@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/kira/Desktop/C/query.c" "C:/Users/kira/Desktop/C/cmake-build-debug/CMakeFiles/Query.dir/query.c.obj"
+  "C:/Users/kira/Desktop/C/Query.c" "C:/Users/kira/Desktop/C/cmake-build-debug/CMakeFiles/Query.dir/query.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "MSVC")
 

@@ -1,4 +1,10 @@
-C:/Users/kira/Desktop/C/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 C:/Users/kira/Desktop/C/cmake-build-debug/CMakeFiles/Glfw.dir
 C:/Users/kira/Desktop/C/cmake-build-debug/CMakeFiles/Query.dir
+C:/Users/kira/Desktop/C/cmake-build-debug/CMakeFiles/Variables.dir
+C:/Users/kira/Desktop/C/cmake-build-debug/CMakeFiles/BuildingABasicCalculator.dir
+C:/Users/kira/Desktop/C/cmake-build-debug/CMakeFiles/Constants.dir
+C:/Users/kira/Desktop/C/cmake-build-debug/CMakeFiles/Printf.dir
+C:/Users/kira/Desktop/C/cmake-build-debug/CMakeFiles/GettingUserInput.dir
+C:/Users/kira/Desktop/C/cmake-build-debug/CMakeFiles/WorkingWithNumbers.dir
 C:/Users/kira/Desktop/C/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/kira/Desktop/C/cmake-build-debug/CMakeFiles/rebuild_cache.dir

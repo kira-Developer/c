@@ -62,4 +62,10 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Glfw.dir/DependInfo.cmake"
   "CMakeFiles/Query.dir/DependInfo.cmake"
+  "CMakeFiles/Variables.dir/DependInfo.cmake"
+  "CMakeFiles/BuildingABasicCalculator.dir/DependInfo.cmake"
+  "CMakeFiles/Constants.dir/DependInfo.cmake"
+  "CMakeFiles/Printf.dir/DependInfo.cmake"
+  "CMakeFiles/GettingUserInput.dir/DependInfo.cmake"
+  "CMakeFiles/WorkingWithNumbers.dir/DependInfo.cmake"
   )

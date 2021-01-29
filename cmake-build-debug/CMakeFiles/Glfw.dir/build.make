@@ -61,33 +61,33 @@ include CMakeFiles\Glfw.dir\progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles\Glfw.dir\flags.make
 
-CMakeFiles\Glfw.dir\glfw.c.obj: CMakeFiles\Glfw.dir\flags.make
-CMakeFiles\Glfw.dir\glfw.c.obj: ..\glfw.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\kira\Desktop\C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Glfw.dir/glfw.c.obj"
+CMakeFiles\Glfw.dir\Glfw.c.obj: CMakeFiles\Glfw.dir\flags.make
+CMakeFiles\Glfw.dir\Glfw.c.obj: ..\Glfw.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\kira\Desktop\C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Glfw.dir/Glfw.c.obj"
 	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\Glfw.dir\glfw.c.obj /FdCMakeFiles\Glfw.dir\ /FS -c C:\Users\kira\Desktop\C\glfw.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\Glfw.dir\Glfw.c.obj /FdCMakeFiles\Glfw.dir\ /FS -c C:\Users\kira\Desktop\C\Glfw.c
 <<
 
-CMakeFiles\Glfw.dir\glfw.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Glfw.dir/glfw.c.i"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\Glfw.dir\glfw.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\kira\Desktop\C\glfw.c
+CMakeFiles\Glfw.dir\Glfw.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Glfw.dir/Glfw.c.i"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\Glfw.dir\Glfw.c.i @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\kira\Desktop\C\Glfw.c
 <<
 
-CMakeFiles\Glfw.dir\glfw.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Glfw.dir/glfw.c.s"
+CMakeFiles\Glfw.dir\Glfw.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Glfw.dir/Glfw.c.s"
 	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\Glfw.dir\glfw.c.s /c C:\Users\kira\Desktop\C\glfw.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\Glfw.dir\Glfw.c.s /c C:\Users\kira\Desktop\C\Glfw.c
 <<
 
 # Object files for target Glfw
 Glfw_OBJECTS = \
-"CMakeFiles\Glfw.dir\glfw.c.obj"
+"CMakeFiles\Glfw.dir\Glfw.c.obj"
 
 # External object files for target Glfw
 Glfw_EXTERNAL_OBJECTS =
 
-Glfw.exe: CMakeFiles\Glfw.dir\glfw.c.obj
+Glfw.exe: CMakeFiles\Glfw.dir\Glfw.c.obj
 Glfw.exe: CMakeFiles\Glfw.dir\build.make
 Glfw.exe: C:\vcpkg\installed\x86-windows\debug\lib\glfw3dll.lib
 Glfw.exe: CMakeFiles\Glfw.dir\objects1.rsp

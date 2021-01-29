@@ -61,33 +61,33 @@ include CMakeFiles\Query.dir\progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles\Query.dir\flags.make
 
-CMakeFiles\Query.dir\query.c.obj: CMakeFiles\Query.dir\flags.make
-CMakeFiles\Query.dir\query.c.obj: ..\query.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\kira\Desktop\C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Query.dir/query.c.obj"
+CMakeFiles\Query.dir\Query.c.obj: CMakeFiles\Query.dir\flags.make
+CMakeFiles\Query.dir\Query.c.obj: ..\Query.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\kira\Desktop\C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Query.dir/Query.c.obj"
 	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\Query.dir\query.c.obj /FdCMakeFiles\Query.dir\ /FS -c C:\Users\kira\Desktop\C\query.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\Query.dir\Query.c.obj /FdCMakeFiles\Query.dir\ /FS -c C:\Users\kira\Desktop\C\Query.c
 <<
 
-CMakeFiles\Query.dir\query.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Query.dir/query.c.i"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\Query.dir\query.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\kira\Desktop\C\query.c
+CMakeFiles\Query.dir\Query.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Query.dir/Query.c.i"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\Query.dir\Query.c.i @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\kira\Desktop\C\Query.c
 <<
 
-CMakeFiles\Query.dir\query.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Query.dir/query.c.s"
+CMakeFiles\Query.dir\Query.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Query.dir/Query.c.s"
 	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\Query.dir\query.c.s /c C:\Users\kira\Desktop\C\query.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\Query.dir\Query.c.s /c C:\Users\kira\Desktop\C\Query.c
 <<
 
 # Object files for target Query
 Query_OBJECTS = \
-"CMakeFiles\Query.dir\query.c.obj"
+"CMakeFiles\Query.dir\Query.c.obj"
 
 # External object files for target Query
 Query_EXTERNAL_OBJECTS =
 
-Query.exe: CMakeFiles\Query.dir\query.c.obj
+Query.exe: CMakeFiles\Query.dir\Query.c.obj
 Query.exe: CMakeFiles\Query.dir\build.make
 Query.exe: C:\vcpkg\installed\x86-windows\debug\lib\libmariadb.lib
 Query.exe: C:\vcpkg\installed\x86-windows\debug\lib\mariadbclient.lib
