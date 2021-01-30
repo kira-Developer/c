@@ -18,8 +18,16 @@ add_executable(BuildingABasicCalculator BuildingABasicCalculator.c)
 add_executable(BuildingAMadLibsGame BuildingAMadLibsGame.c)
 add_executable(Array Array.c)
 add_executable(Functions Functions.c)
-
-
+add_executable(ReturnStatement ReturnStatement.c)
+add_executable(IfStatement IfStatement.c)
+add_executable(BuildingABetterCalculator BuildingABetterCalculator.c)
+add_executable(Structs Structs.c)
+add_executable(WhileLoops WhileLoops.c)
+add_executable(BuildingAGuessingGame BuildingAGuessingGame.c)
+add_executable(ForLoops ForLoops.c)
+add_executable(ArraysAndNestedLoops ArraysAndNestedLoops.c)
+add_executable(MemoryAddresses MemoryAddresses.c)
+add_executable(Pointers Pointers.c)
 target_link_libraries(Glfw PRIVATE glfw)
 target_link_libraries(Query PRIVATE libmariadb mariadbclient)
 

@@ -257,6 +257,136 @@ Functions\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Functions.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Functions.dir\build
 .PHONY : Functions\fast
 
+#=============================================================================
+# Target rules for targets named ReturnStatement
+
+# Build rule for target.
+ReturnStatement: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) ReturnStatement
+.PHONY : ReturnStatement
+
+# fast build rule for target.
+ReturnStatement\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ReturnStatement.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ReturnStatement.dir\build
+.PHONY : ReturnStatement\fast
+
+#=============================================================================
+# Target rules for targets named IfStatement
+
+# Build rule for target.
+IfStatement: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) IfStatement
+.PHONY : IfStatement
+
+# fast build rule for target.
+IfStatement\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\IfStatement.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\IfStatement.dir\build
+.PHONY : IfStatement\fast
+
+#=============================================================================
+# Target rules for targets named BuildingABetterCalculator
+
+# Build rule for target.
+BuildingABetterCalculator: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) BuildingABetterCalculator
+.PHONY : BuildingABetterCalculator
+
+# fast build rule for target.
+BuildingABetterCalculator\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BuildingABetterCalculator.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BuildingABetterCalculator.dir\build
+.PHONY : BuildingABetterCalculator\fast
+
+#=============================================================================
+# Target rules for targets named Structs
+
+# Build rule for target.
+Structs: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Structs
+.PHONY : Structs
+
+# fast build rule for target.
+Structs\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structs.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Structs.dir\build
+.PHONY : Structs\fast
+
+#=============================================================================
+# Target rules for targets named BuildingAGuessingGame
+
+# Build rule for target.
+BuildingAGuessingGame: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) BuildingAGuessingGame
+.PHONY : BuildingAGuessingGame
+
+# fast build rule for target.
+BuildingAGuessingGame\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BuildingAGuessingGame.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BuildingAGuessingGame.dir\build
+.PHONY : BuildingAGuessingGame\fast
+
+#=============================================================================
+# Target rules for targets named WhileLoops
+
+# Build rule for target.
+WhileLoops: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) WhileLoops
+.PHONY : WhileLoops
+
+# fast build rule for target.
+WhileLoops\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WhileLoops.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\WhileLoops.dir\build
+.PHONY : WhileLoops\fast
+
+#=============================================================================
+# Target rules for targets named ForLoops
+
+# Build rule for target.
+ForLoops: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) ForLoops
+.PHONY : ForLoops
+
+# fast build rule for target.
+ForLoops\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ForLoops.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ForLoops.dir\build
+.PHONY : ForLoops\fast
+
+#=============================================================================
+# Target rules for targets named ArraysAndNestedLoops
+
+# Build rule for target.
+ArraysAndNestedLoops: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) ArraysAndNestedLoops
+.PHONY : ArraysAndNestedLoops
+
+# fast build rule for target.
+ArraysAndNestedLoops\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ArraysAndNestedLoops.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ArraysAndNestedLoops.dir\build
+.PHONY : ArraysAndNestedLoops\fast
+
+#=============================================================================
+# Target rules for targets named MemoryAddresses
+
+# Build rule for target.
+MemoryAddresses: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) MemoryAddresses
+.PHONY : MemoryAddresses
+
+# fast build rule for target.
+MemoryAddresses\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MemoryAddresses.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MemoryAddresses.dir\build
+.PHONY : MemoryAddresses\fast
+
+#=============================================================================
+# Target rules for targets named Pointers
+
+# Build rule for target.
+Pointers: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Pointers
+.PHONY : Pointers
+
+# fast build rule for target.
+Pointers\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pointers.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Pointers.dir\build
+.PHONY : Pointers\fast
+
 Array.obj: Array.c.obj
 
 .PHONY : Array.obj
@@ -284,6 +414,33 @@ Array.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Array.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Array.dir\Array.c.s
 .PHONY : Array.c.s
 
+ArraysAndNestedLoops.obj: ArraysAndNestedLoops.c.obj
+
+.PHONY : ArraysAndNestedLoops.obj
+
+# target to build an object file
+ArraysAndNestedLoops.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ArraysAndNestedLoops.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ArraysAndNestedLoops.dir\ArraysAndNestedLoops.c.obj
+.PHONY : ArraysAndNestedLoops.c.obj
+
+ArraysAndNestedLoops.i: ArraysAndNestedLoops.c.i
+
+.PHONY : ArraysAndNestedLoops.i
+
+# target to preprocess a source file
+ArraysAndNestedLoops.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ArraysAndNestedLoops.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ArraysAndNestedLoops.dir\ArraysAndNestedLoops.c.i
+.PHONY : ArraysAndNestedLoops.c.i
+
+ArraysAndNestedLoops.s: ArraysAndNestedLoops.c.s
+
+.PHONY : ArraysAndNestedLoops.s
+
+# target to generate assembly for a file
+ArraysAndNestedLoops.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ArraysAndNestedLoops.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ArraysAndNestedLoops.dir\ArraysAndNestedLoops.c.s
+.PHONY : ArraysAndNestedLoops.c.s
+
 BuildingABasicCalculator.obj: BuildingABasicCalculator.c.obj
 
 .PHONY : BuildingABasicCalculator.obj
@@ -310,6 +467,60 @@ BuildingABasicCalculator.s: BuildingABasicCalculator.c.s
 BuildingABasicCalculator.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BuildingABasicCalculator.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BuildingABasicCalculator.dir\BuildingABasicCalculator.c.s
 .PHONY : BuildingABasicCalculator.c.s
+
+BuildingABetterCalculator.obj: BuildingABetterCalculator.c.obj
+
+.PHONY : BuildingABetterCalculator.obj
+
+# target to build an object file
+BuildingABetterCalculator.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BuildingABetterCalculator.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BuildingABetterCalculator.dir\BuildingABetterCalculator.c.obj
+.PHONY : BuildingABetterCalculator.c.obj
+
+BuildingABetterCalculator.i: BuildingABetterCalculator.c.i
+
+.PHONY : BuildingABetterCalculator.i
+
+# target to preprocess a source file
+BuildingABetterCalculator.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BuildingABetterCalculator.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BuildingABetterCalculator.dir\BuildingABetterCalculator.c.i
+.PHONY : BuildingABetterCalculator.c.i
+
+BuildingABetterCalculator.s: BuildingABetterCalculator.c.s
+
+.PHONY : BuildingABetterCalculator.s
+
+# target to generate assembly for a file
+BuildingABetterCalculator.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BuildingABetterCalculator.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BuildingABetterCalculator.dir\BuildingABetterCalculator.c.s
+.PHONY : BuildingABetterCalculator.c.s
+
+BuildingAGuessingGame.obj: BuildingAGuessingGame.c.obj
+
+.PHONY : BuildingAGuessingGame.obj
+
+# target to build an object file
+BuildingAGuessingGame.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BuildingAGuessingGame.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BuildingAGuessingGame.dir\BuildingAGuessingGame.c.obj
+.PHONY : BuildingAGuessingGame.c.obj
+
+BuildingAGuessingGame.i: BuildingAGuessingGame.c.i
+
+.PHONY : BuildingAGuessingGame.i
+
+# target to preprocess a source file
+BuildingAGuessingGame.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BuildingAGuessingGame.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BuildingAGuessingGame.dir\BuildingAGuessingGame.c.i
+.PHONY : BuildingAGuessingGame.c.i
+
+BuildingAGuessingGame.s: BuildingAGuessingGame.c.s
+
+.PHONY : BuildingAGuessingGame.s
+
+# target to generate assembly for a file
+BuildingAGuessingGame.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BuildingAGuessingGame.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BuildingAGuessingGame.dir\BuildingAGuessingGame.c.s
+.PHONY : BuildingAGuessingGame.c.s
 
 BuildingAMadLibsGame.obj: BuildingAMadLibsGame.c.obj
 
@@ -364,6 +575,33 @@ Constants.s: Constants.c.s
 Constants.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Constants.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Constants.dir\Constants.c.s
 .PHONY : Constants.c.s
+
+ForLoops.obj: ForLoops.c.obj
+
+.PHONY : ForLoops.obj
+
+# target to build an object file
+ForLoops.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ForLoops.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ForLoops.dir\ForLoops.c.obj
+.PHONY : ForLoops.c.obj
+
+ForLoops.i: ForLoops.c.i
+
+.PHONY : ForLoops.i
+
+# target to preprocess a source file
+ForLoops.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ForLoops.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ForLoops.dir\ForLoops.c.i
+.PHONY : ForLoops.c.i
+
+ForLoops.s: ForLoops.c.s
+
+.PHONY : ForLoops.s
+
+# target to generate assembly for a file
+ForLoops.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ForLoops.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ForLoops.dir\ForLoops.c.s
+.PHONY : ForLoops.c.s
 
 Functions.obj: Functions.c.obj
 
@@ -446,6 +684,87 @@ Glfw.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Glfw.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Glfw.dir\Glfw.c.s
 .PHONY : Glfw.c.s
 
+IfStatement.obj: IfStatement.c.obj
+
+.PHONY : IfStatement.obj
+
+# target to build an object file
+IfStatement.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\IfStatement.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\IfStatement.dir\IfStatement.c.obj
+.PHONY : IfStatement.c.obj
+
+IfStatement.i: IfStatement.c.i
+
+.PHONY : IfStatement.i
+
+# target to preprocess a source file
+IfStatement.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\IfStatement.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\IfStatement.dir\IfStatement.c.i
+.PHONY : IfStatement.c.i
+
+IfStatement.s: IfStatement.c.s
+
+.PHONY : IfStatement.s
+
+# target to generate assembly for a file
+IfStatement.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\IfStatement.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\IfStatement.dir\IfStatement.c.s
+.PHONY : IfStatement.c.s
+
+MemoryAddresses.obj: MemoryAddresses.c.obj
+
+.PHONY : MemoryAddresses.obj
+
+# target to build an object file
+MemoryAddresses.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MemoryAddresses.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MemoryAddresses.dir\MemoryAddresses.c.obj
+.PHONY : MemoryAddresses.c.obj
+
+MemoryAddresses.i: MemoryAddresses.c.i
+
+.PHONY : MemoryAddresses.i
+
+# target to preprocess a source file
+MemoryAddresses.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MemoryAddresses.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MemoryAddresses.dir\MemoryAddresses.c.i
+.PHONY : MemoryAddresses.c.i
+
+MemoryAddresses.s: MemoryAddresses.c.s
+
+.PHONY : MemoryAddresses.s
+
+# target to generate assembly for a file
+MemoryAddresses.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MemoryAddresses.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MemoryAddresses.dir\MemoryAddresses.c.s
+.PHONY : MemoryAddresses.c.s
+
+Pointers.obj: Pointers.c.obj
+
+.PHONY : Pointers.obj
+
+# target to build an object file
+Pointers.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pointers.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Pointers.dir\Pointers.c.obj
+.PHONY : Pointers.c.obj
+
+Pointers.i: Pointers.c.i
+
+.PHONY : Pointers.i
+
+# target to preprocess a source file
+Pointers.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pointers.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Pointers.dir\Pointers.c.i
+.PHONY : Pointers.c.i
+
+Pointers.s: Pointers.c.s
+
+.PHONY : Pointers.s
+
+# target to generate assembly for a file
+Pointers.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pointers.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Pointers.dir\Pointers.c.s
+.PHONY : Pointers.c.s
+
 Printf.obj: Printf.c.obj
 
 .PHONY : Printf.obj
@@ -500,6 +819,60 @@ Query.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Query.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Query.dir\Query.c.s
 .PHONY : Query.c.s
 
+ReturnStatement.obj: ReturnStatement.c.obj
+
+.PHONY : ReturnStatement.obj
+
+# target to build an object file
+ReturnStatement.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ReturnStatement.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ReturnStatement.dir\ReturnStatement.c.obj
+.PHONY : ReturnStatement.c.obj
+
+ReturnStatement.i: ReturnStatement.c.i
+
+.PHONY : ReturnStatement.i
+
+# target to preprocess a source file
+ReturnStatement.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ReturnStatement.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ReturnStatement.dir\ReturnStatement.c.i
+.PHONY : ReturnStatement.c.i
+
+ReturnStatement.s: ReturnStatement.c.s
+
+.PHONY : ReturnStatement.s
+
+# target to generate assembly for a file
+ReturnStatement.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ReturnStatement.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ReturnStatement.dir\ReturnStatement.c.s
+.PHONY : ReturnStatement.c.s
+
+Structs.obj: Structs.c.obj
+
+.PHONY : Structs.obj
+
+# target to build an object file
+Structs.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structs.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Structs.dir\Structs.c.obj
+.PHONY : Structs.c.obj
+
+Structs.i: Structs.c.i
+
+.PHONY : Structs.i
+
+# target to preprocess a source file
+Structs.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structs.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Structs.dir\Structs.c.i
+.PHONY : Structs.c.i
+
+Structs.s: Structs.c.s
+
+.PHONY : Structs.s
+
+# target to generate assembly for a file
+Structs.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structs.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Structs.dir\Structs.c.s
+.PHONY : Structs.c.s
+
 Variables.obj: Variables.c.obj
 
 .PHONY : Variables.obj
@@ -526,6 +899,33 @@ Variables.s: Variables.c.s
 Variables.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Variables.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Variables.dir\Variables.c.s
 .PHONY : Variables.c.s
+
+WhileLoops.obj: WhileLoops.c.obj
+
+.PHONY : WhileLoops.obj
+
+# target to build an object file
+WhileLoops.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WhileLoops.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\WhileLoops.dir\WhileLoops.c.obj
+.PHONY : WhileLoops.c.obj
+
+WhileLoops.i: WhileLoops.c.i
+
+.PHONY : WhileLoops.i
+
+# target to preprocess a source file
+WhileLoops.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WhileLoops.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\WhileLoops.dir\WhileLoops.c.i
+.PHONY : WhileLoops.c.i
+
+WhileLoops.s: WhileLoops.c.s
+
+.PHONY : WhileLoops.s
+
+# target to generate assembly for a file
+WhileLoops.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WhileLoops.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\WhileLoops.dir\WhileLoops.c.s
+.PHONY : WhileLoops.c.s
 
 WorkingWithNumbers.obj: WorkingWithNumbers.c.obj
 
@@ -563,28 +963,50 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Array
+	@echo ... ArraysAndNestedLoops
 	@echo ... BuildingABasicCalculator
+	@echo ... BuildingABetterCalculator
+	@echo ... BuildingAGuessingGame
 	@echo ... BuildingAMadLibsGame
 	@echo ... Constants
+	@echo ... ForLoops
 	@echo ... Functions
 	@echo ... GettingUserInput
 	@echo ... Glfw
+	@echo ... IfStatement
+	@echo ... MemoryAddresses
+	@echo ... Pointers
 	@echo ... Printf
 	@echo ... Query
+	@echo ... ReturnStatement
+	@echo ... Structs
 	@echo ... Variables
+	@echo ... WhileLoops
 	@echo ... WorkingWithNumbers
 	@echo ... Array.obj
 	@echo ... Array.i
 	@echo ... Array.s
+	@echo ... ArraysAndNestedLoops.obj
+	@echo ... ArraysAndNestedLoops.i
+	@echo ... ArraysAndNestedLoops.s
 	@echo ... BuildingABasicCalculator.obj
 	@echo ... BuildingABasicCalculator.i
 	@echo ... BuildingABasicCalculator.s
+	@echo ... BuildingABetterCalculator.obj
+	@echo ... BuildingABetterCalculator.i
+	@echo ... BuildingABetterCalculator.s
+	@echo ... BuildingAGuessingGame.obj
+	@echo ... BuildingAGuessingGame.i
+	@echo ... BuildingAGuessingGame.s
 	@echo ... BuildingAMadLibsGame.obj
 	@echo ... BuildingAMadLibsGame.i
 	@echo ... BuildingAMadLibsGame.s
 	@echo ... Constants.obj
 	@echo ... Constants.i
 	@echo ... Constants.s
+	@echo ... ForLoops.obj
+	@echo ... ForLoops.i
+	@echo ... ForLoops.s
 	@echo ... Functions.obj
 	@echo ... Functions.i
 	@echo ... Functions.s
@@ -594,15 +1016,33 @@ help:
 	@echo ... Glfw.obj
 	@echo ... Glfw.i
 	@echo ... Glfw.s
+	@echo ... IfStatement.obj
+	@echo ... IfStatement.i
+	@echo ... IfStatement.s
+	@echo ... MemoryAddresses.obj
+	@echo ... MemoryAddresses.i
+	@echo ... MemoryAddresses.s
+	@echo ... Pointers.obj
+	@echo ... Pointers.i
+	@echo ... Pointers.s
 	@echo ... Printf.obj
 	@echo ... Printf.i
 	@echo ... Printf.s
 	@echo ... Query.obj
 	@echo ... Query.i
 	@echo ... Query.s
+	@echo ... ReturnStatement.obj
+	@echo ... ReturnStatement.i
+	@echo ... ReturnStatement.s
+	@echo ... Structs.obj
+	@echo ... Structs.i
+	@echo ... Structs.s
 	@echo ... Variables.obj
 	@echo ... Variables.i
 	@echo ... Variables.s
+	@echo ... WhileLoops.obj
+	@echo ... WhileLoops.i
+	@echo ... WhileLoops.s
 	@echo ... WorkingWithNumbers.obj
 	@echo ... WorkingWithNumbers.i
 	@echo ... WorkingWithNumbers.s
