@@ -218,6 +218,72 @@ WorkingWithNumbers\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\WorkingWithNumbers.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\WorkingWithNumbers.dir\build
 .PHONY : WorkingWithNumbers\fast
 
+#=============================================================================
+# Target rules for targets named BuildingAMadLibsGame
+
+# Build rule for target.
+BuildingAMadLibsGame: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) BuildingAMadLibsGame
+.PHONY : BuildingAMadLibsGame
+
+# fast build rule for target.
+BuildingAMadLibsGame\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BuildingAMadLibsGame.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BuildingAMadLibsGame.dir\build
+.PHONY : BuildingAMadLibsGame\fast
+
+#=============================================================================
+# Target rules for targets named Array
+
+# Build rule for target.
+Array: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Array
+.PHONY : Array
+
+# fast build rule for target.
+Array\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Array.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Array.dir\build
+.PHONY : Array\fast
+
+#=============================================================================
+# Target rules for targets named Functions
+
+# Build rule for target.
+Functions: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Functions
+.PHONY : Functions
+
+# fast build rule for target.
+Functions\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Functions.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Functions.dir\build
+.PHONY : Functions\fast
+
+Array.obj: Array.c.obj
+
+.PHONY : Array.obj
+
+# target to build an object file
+Array.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Array.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Array.dir\Array.c.obj
+.PHONY : Array.c.obj
+
+Array.i: Array.c.i
+
+.PHONY : Array.i
+
+# target to preprocess a source file
+Array.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Array.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Array.dir\Array.c.i
+.PHONY : Array.c.i
+
+Array.s: Array.c.s
+
+.PHONY : Array.s
+
+# target to generate assembly for a file
+Array.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Array.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Array.dir\Array.c.s
+.PHONY : Array.c.s
+
 BuildingABasicCalculator.obj: BuildingABasicCalculator.c.obj
 
 .PHONY : BuildingABasicCalculator.obj
@@ -245,6 +311,33 @@ BuildingABasicCalculator.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BuildingABasicCalculator.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BuildingABasicCalculator.dir\BuildingABasicCalculator.c.s
 .PHONY : BuildingABasicCalculator.c.s
 
+BuildingAMadLibsGame.obj: BuildingAMadLibsGame.c.obj
+
+.PHONY : BuildingAMadLibsGame.obj
+
+# target to build an object file
+BuildingAMadLibsGame.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BuildingAMadLibsGame.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BuildingAMadLibsGame.dir\BuildingAMadLibsGame.c.obj
+.PHONY : BuildingAMadLibsGame.c.obj
+
+BuildingAMadLibsGame.i: BuildingAMadLibsGame.c.i
+
+.PHONY : BuildingAMadLibsGame.i
+
+# target to preprocess a source file
+BuildingAMadLibsGame.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BuildingAMadLibsGame.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BuildingAMadLibsGame.dir\BuildingAMadLibsGame.c.i
+.PHONY : BuildingAMadLibsGame.c.i
+
+BuildingAMadLibsGame.s: BuildingAMadLibsGame.c.s
+
+.PHONY : BuildingAMadLibsGame.s
+
+# target to generate assembly for a file
+BuildingAMadLibsGame.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BuildingAMadLibsGame.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BuildingAMadLibsGame.dir\BuildingAMadLibsGame.c.s
+.PHONY : BuildingAMadLibsGame.c.s
+
 Constants.obj: Constants.c.obj
 
 .PHONY : Constants.obj
@@ -271,6 +364,33 @@ Constants.s: Constants.c.s
 Constants.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Constants.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Constants.dir\Constants.c.s
 .PHONY : Constants.c.s
+
+Functions.obj: Functions.c.obj
+
+.PHONY : Functions.obj
+
+# target to build an object file
+Functions.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Functions.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Functions.dir\Functions.c.obj
+.PHONY : Functions.c.obj
+
+Functions.i: Functions.c.i
+
+.PHONY : Functions.i
+
+# target to preprocess a source file
+Functions.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Functions.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Functions.dir\Functions.c.i
+.PHONY : Functions.c.i
+
+Functions.s: Functions.c.s
+
+.PHONY : Functions.s
+
+# target to generate assembly for a file
+Functions.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Functions.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Functions.dir\Functions.c.s
+.PHONY : Functions.c.s
 
 GettingUserInput.obj: GettingUserInput.c.obj
 
@@ -442,20 +562,32 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Array
 	@echo ... BuildingABasicCalculator
+	@echo ... BuildingAMadLibsGame
 	@echo ... Constants
+	@echo ... Functions
 	@echo ... GettingUserInput
 	@echo ... Glfw
 	@echo ... Printf
 	@echo ... Query
 	@echo ... Variables
 	@echo ... WorkingWithNumbers
+	@echo ... Array.obj
+	@echo ... Array.i
+	@echo ... Array.s
 	@echo ... BuildingABasicCalculator.obj
 	@echo ... BuildingABasicCalculator.i
 	@echo ... BuildingABasicCalculator.s
+	@echo ... BuildingAMadLibsGame.obj
+	@echo ... BuildingAMadLibsGame.i
+	@echo ... BuildingAMadLibsGame.s
 	@echo ... Constants.obj
 	@echo ... Constants.i
 	@echo ... Constants.s
+	@echo ... Functions.obj
+	@echo ... Functions.i
+	@echo ... Functions.s
 	@echo ... GettingUserInput.obj
 	@echo ... GettingUserInput.i
 	@echo ... GettingUserInput.s

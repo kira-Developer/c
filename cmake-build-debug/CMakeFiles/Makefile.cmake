@@ -68,4 +68,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Printf.dir/DependInfo.cmake"
   "CMakeFiles/GettingUserInput.dir/DependInfo.cmake"
   "CMakeFiles/WorkingWithNumbers.dir/DependInfo.cmake"
+  "CMakeFiles/BuildingAMadLibsGame.dir/DependInfo.cmake"
+  "CMakeFiles/Array.dir/DependInfo.cmake"
+  "CMakeFiles/Functions.dir/DependInfo.cmake"
   )

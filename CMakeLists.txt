@@ -15,6 +15,9 @@ add_executable(Constants Constants.c)
 add_executable(GettingUserInput GettingUserInput.c)
 add_executable(WorkingWithNumbers WorkingWithNumbers.c)
 add_executable(BuildingABasicCalculator BuildingABasicCalculator.c)
+add_executable(BuildingAMadLibsGame BuildingAMadLibsGame.c)
+add_executable(Array Array.c)
+add_executable(Functions Functions.c)
 
 
 target_link_libraries(Glfw PRIVATE glfw)

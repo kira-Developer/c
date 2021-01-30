@@ -6,5 +6,8 @@ C:/Users/kira/Desktop/C/cmake-build-debug/CMakeFiles/Constants.dir
 C:/Users/kira/Desktop/C/cmake-build-debug/CMakeFiles/Printf.dir
 C:/Users/kira/Desktop/C/cmake-build-debug/CMakeFiles/GettingUserInput.dir
 C:/Users/kira/Desktop/C/cmake-build-debug/CMakeFiles/WorkingWithNumbers.dir
+C:/Users/kira/Desktop/C/cmake-build-debug/CMakeFiles/BuildingAMadLibsGame.dir
+C:/Users/kira/Desktop/C/cmake-build-debug/CMakeFiles/Array.dir
+C:/Users/kira/Desktop/C/cmake-build-debug/CMakeFiles/Functions.dir
 C:/Users/kira/Desktop/C/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/kira/Desktop/C/cmake-build-debug/CMakeFiles/rebuild_cache.dir

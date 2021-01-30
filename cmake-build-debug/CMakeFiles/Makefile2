@@ -65,6 +65,9 @@ all: CMakeFiles\Constants.dir\all
 all: CMakeFiles\Printf.dir\all
 all: CMakeFiles\GettingUserInput.dir\all
 all: CMakeFiles\WorkingWithNumbers.dir\all
+all: CMakeFiles\BuildingAMadLibsGame.dir\all
+all: CMakeFiles\Array.dir\all
+all: CMakeFiles\Functions.dir\all
 
 .PHONY : all
 
@@ -82,6 +85,9 @@ clean: CMakeFiles\Constants.dir\clean
 clean: CMakeFiles\Printf.dir\clean
 clean: CMakeFiles\GettingUserInput.dir\clean
 clean: CMakeFiles\WorkingWithNumbers.dir\clean
+clean: CMakeFiles\BuildingAMadLibsGame.dir\clean
+clean: CMakeFiles\Array.dir\clean
+clean: CMakeFiles\Functions.dir\clean
 
 .PHONY : clean
 
@@ -92,7 +98,7 @@ clean: CMakeFiles\WorkingWithNumbers.dir\clean
 CMakeFiles\Glfw.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Glfw.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Glfw.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Glfw.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Glfw.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\kira\Desktop\C\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target Glfw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\kira\Desktop\C\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target Glfw"
 .PHONY : CMakeFiles\Glfw.dir\all
 
 # Build rule for subdir invocation for target.
@@ -119,7 +125,7 @@ CMakeFiles\Glfw.dir\clean:
 CMakeFiles\Query.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Query.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Query.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Query.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Query.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\kira\Desktop\C\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target Query"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\kira\Desktop\C\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target Query"
 .PHONY : CMakeFiles\Query.dir\all
 
 # Build rule for subdir invocation for target.
@@ -146,7 +152,7 @@ CMakeFiles\Query.dir\clean:
 CMakeFiles\Variables.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Variables.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Variables.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Variables.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Variables.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\kira\Desktop\C\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target Variables"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\kira\Desktop\C\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target Variables"
 .PHONY : CMakeFiles\Variables.dir\all
 
 # Build rule for subdir invocation for target.
@@ -173,7 +179,7 @@ CMakeFiles\Variables.dir\clean:
 CMakeFiles\BuildingABasicCalculator.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BuildingABasicCalculator.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BuildingABasicCalculator.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BuildingABasicCalculator.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BuildingABasicCalculator.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\kira\Desktop\C\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target BuildingABasicCalculator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\kira\Desktop\C\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target BuildingABasicCalculator"
 .PHONY : CMakeFiles\BuildingABasicCalculator.dir\all
 
 # Build rule for subdir invocation for target.
@@ -200,7 +206,7 @@ CMakeFiles\BuildingABasicCalculator.dir\clean:
 CMakeFiles\Constants.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Constants.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Constants.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Constants.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Constants.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\kira\Desktop\C\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target Constants"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\kira\Desktop\C\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target Constants"
 .PHONY : CMakeFiles\Constants.dir\all
 
 # Build rule for subdir invocation for target.
@@ -227,7 +233,7 @@ CMakeFiles\Constants.dir\clean:
 CMakeFiles\Printf.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Printf.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Printf.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Printf.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Printf.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\kira\Desktop\C\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target Printf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\kira\Desktop\C\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target Printf"
 .PHONY : CMakeFiles\Printf.dir\all
 
 # Build rule for subdir invocation for target.
@@ -254,7 +260,7 @@ CMakeFiles\Printf.dir\clean:
 CMakeFiles\GettingUserInput.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GettingUserInput.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GettingUserInput.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GettingUserInput.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GettingUserInput.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\kira\Desktop\C\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target GettingUserInput"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\kira\Desktop\C\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target GettingUserInput"
 .PHONY : CMakeFiles\GettingUserInput.dir\all
 
 # Build rule for subdir invocation for target.
@@ -281,7 +287,7 @@ CMakeFiles\GettingUserInput.dir\clean:
 CMakeFiles\WorkingWithNumbers.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\WorkingWithNumbers.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\WorkingWithNumbers.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\WorkingWithNumbers.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\WorkingWithNumbers.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\kira\Desktop\C\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target WorkingWithNumbers"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\kira\Desktop\C\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target WorkingWithNumbers"
 .PHONY : CMakeFiles\WorkingWithNumbers.dir\all
 
 # Build rule for subdir invocation for target.
@@ -300,6 +306,87 @@ WorkingWithNumbers: CMakeFiles\WorkingWithNumbers.dir\rule
 CMakeFiles\WorkingWithNumbers.dir\clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\WorkingWithNumbers.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\WorkingWithNumbers.dir\clean
 .PHONY : CMakeFiles\WorkingWithNumbers.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/BuildingAMadLibsGame.dir
+
+# All Build rule for target.
+CMakeFiles\BuildingAMadLibsGame.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BuildingAMadLibsGame.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BuildingAMadLibsGame.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BuildingAMadLibsGame.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BuildingAMadLibsGame.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\kira\Desktop\C\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target BuildingAMadLibsGame"
+.PHONY : CMakeFiles\BuildingAMadLibsGame.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\BuildingAMadLibsGame.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kira\Desktop\C\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\BuildingAMadLibsGame.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kira\Desktop\C\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\BuildingAMadLibsGame.dir\rule
+
+# Convenience name for target.
+BuildingAMadLibsGame: CMakeFiles\BuildingAMadLibsGame.dir\rule
+
+.PHONY : BuildingAMadLibsGame
+
+# clean rule for target.
+CMakeFiles\BuildingAMadLibsGame.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BuildingAMadLibsGame.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BuildingAMadLibsGame.dir\clean
+.PHONY : CMakeFiles\BuildingAMadLibsGame.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Array.dir
+
+# All Build rule for target.
+CMakeFiles\Array.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Array.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Array.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Array.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Array.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\kira\Desktop\C\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target Array"
+.PHONY : CMakeFiles\Array.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\Array.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kira\Desktop\C\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\Array.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kira\Desktop\C\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\Array.dir\rule
+
+# Convenience name for target.
+Array: CMakeFiles\Array.dir\rule
+
+.PHONY : Array
+
+# clean rule for target.
+CMakeFiles\Array.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Array.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Array.dir\clean
+.PHONY : CMakeFiles\Array.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Functions.dir
+
+# All Build rule for target.
+CMakeFiles\Functions.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Functions.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Functions.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Functions.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Functions.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\kira\Desktop\C\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target Functions"
+.PHONY : CMakeFiles\Functions.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\Functions.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kira\Desktop\C\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\Functions.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kira\Desktop\C\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\Functions.dir\rule
+
+# Convenience name for target.
+Functions: CMakeFiles\Functions.dir\rule
+
+.PHONY : Functions
+
+# clean rule for target.
+CMakeFiles\Functions.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Functions.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Functions.dir\clean
+.PHONY : CMakeFiles\Functions.dir\clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
