@@ -25,4 +25,5 @@ C:/Users/kira/Desktop/C/cmake-build-debug/CMakeFiles/ReadingFiles.dir
 C:/Users/kira/Desktop/C/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/kira/Desktop/C/cmake-build-debug/CMakeFiles/getDataFromGithub.dir
 C:/Users/kira/Desktop/C/cmake-build-debug/CMakeFiles/GreatValue.dir
+C:/Users/kira/Desktop/C/cmake-build-debug/CMakeFiles/DigitalClock.dir
 C:/Users/kira/Desktop/C/cmake-build-debug/CMakeFiles/rebuild_cache.dir

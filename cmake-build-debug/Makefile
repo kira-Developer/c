@@ -452,6 +452,46 @@ GreatValue\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GreatValue.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GreatValue.dir\build
 .PHONY : GreatValue\fast
 
+#=============================================================================
+# Target rules for targets named DigitalClock
+
+# Build rule for target.
+DigitalClock: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) DigitalClock
+.PHONY : DigitalClock
+
+# fast build rule for target.
+DigitalClock\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DigitalClock.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DigitalClock.dir\build
+.PHONY : DigitalClock\fast
+
+Applications\DigitalClock.obj: Applications\DigitalClock.c.obj
+
+.PHONY : Applications\DigitalClock.obj
+
+# target to build an object file
+Applications\DigitalClock.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DigitalClock.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DigitalClock.dir\Applications\DigitalClock.c.obj
+.PHONY : Applications\DigitalClock.c.obj
+
+Applications\DigitalClock.i: Applications\DigitalClock.c.i
+
+.PHONY : Applications\DigitalClock.i
+
+# target to preprocess a source file
+Applications\DigitalClock.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DigitalClock.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DigitalClock.dir\Applications\DigitalClock.c.i
+.PHONY : Applications\DigitalClock.c.i
+
+Applications\DigitalClock.s: Applications\DigitalClock.c.s
+
+.PHONY : Applications\DigitalClock.s
+
+# target to generate assembly for a file
+Applications\DigitalClock.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DigitalClock.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DigitalClock.dir\Applications\DigitalClock.c.s
+.PHONY : Applications\DigitalClock.c.s
+
 Applications\GreatValue.obj: Applications\GreatValue.c.obj
 
 .PHONY : Applications\GreatValue.obj
@@ -1170,6 +1210,7 @@ help:
 	@echo ... BuildingAMadLibsGame
 	@echo ... Constants
 	@echo ... DereferencingPointers
+	@echo ... DigitalClock
 	@echo ... ForLoops
 	@echo ... Functions
 	@echo ... GettingUserInput
@@ -1188,6 +1229,9 @@ help:
 	@echo ... WorkingWithNumbers
 	@echo ... WritingFiles
 	@echo ... getDataFromGithub
+	@echo ... Applications/DigitalClock.obj
+	@echo ... Applications/DigitalClock.i
+	@echo ... Applications/DigitalClock.s
 	@echo ... Applications/GreatValue.obj
 	@echo ... Applications/GreatValue.i
 	@echo ... Applications/GreatValue.s
