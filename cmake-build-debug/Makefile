@@ -465,6 +465,32 @@ DigitalClock\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DigitalClock.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DigitalClock.dir\build
 .PHONY : DigitalClock\fast
 
+#=============================================================================
+# Target rules for targets named StudentRecordManagementSystem
+
+# Build rule for target.
+StudentRecordManagementSystem: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) StudentRecordManagementSystem
+.PHONY : StudentRecordManagementSystem
+
+# fast build rule for target.
+StudentRecordManagementSystem\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StudentRecordManagementSystem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\StudentRecordManagementSystem.dir\build
+.PHONY : StudentRecordManagementSystem\fast
+
+#=============================================================================
+# Target rules for targets named WinSock2
+
+# Build rule for target.
+WinSock2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) WinSock2
+.PHONY : WinSock2
+
+# fast build rule for target.
+WinSock2\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WinSock2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\WinSock2.dir\build
+.PHONY : WinSock2\fast
+
 Applications\DigitalClock.obj: Applications\DigitalClock.c.obj
 
 .PHONY : Applications\DigitalClock.obj
@@ -518,6 +544,33 @@ Applications\GreatValue.s: Applications\GreatValue.c.s
 Applications\GreatValue.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GreatValue.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GreatValue.dir\Applications\GreatValue.c.s
 .PHONY : Applications\GreatValue.c.s
+
+Applications\StudentRecordManagementSystem.obj: Applications\StudentRecordManagementSystem.c.obj
+
+.PHONY : Applications\StudentRecordManagementSystem.obj
+
+# target to build an object file
+Applications\StudentRecordManagementSystem.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StudentRecordManagementSystem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\StudentRecordManagementSystem.dir\Applications\StudentRecordManagementSystem.c.obj
+.PHONY : Applications\StudentRecordManagementSystem.c.obj
+
+Applications\StudentRecordManagementSystem.i: Applications\StudentRecordManagementSystem.c.i
+
+.PHONY : Applications\StudentRecordManagementSystem.i
+
+# target to preprocess a source file
+Applications\StudentRecordManagementSystem.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StudentRecordManagementSystem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\StudentRecordManagementSystem.dir\Applications\StudentRecordManagementSystem.c.i
+.PHONY : Applications\StudentRecordManagementSystem.c.i
+
+Applications\StudentRecordManagementSystem.s: Applications\StudentRecordManagementSystem.c.s
+
+.PHONY : Applications\StudentRecordManagementSystem.s
+
+# target to generate assembly for a file
+Applications\StudentRecordManagementSystem.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StudentRecordManagementSystem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\StudentRecordManagementSystem.dir\Applications\StudentRecordManagementSystem.c.s
+.PHONY : Applications\StudentRecordManagementSystem.c.s
 
 Array.obj: Array.c.obj
 
@@ -842,6 +895,33 @@ GettingUserInput.s: GettingUserInput.c.s
 GettingUserInput.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GettingUserInput.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GettingUserInput.dir\GettingUserInput.c.s
 .PHONY : GettingUserInput.c.s
+
+HackingTools\WinSock2.obj: HackingTools\WinSock2.c.obj
+
+.PHONY : HackingTools\WinSock2.obj
+
+# target to build an object file
+HackingTools\WinSock2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WinSock2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\WinSock2.dir\HackingTools\WinSock2.c.obj
+.PHONY : HackingTools\WinSock2.c.obj
+
+HackingTools\WinSock2.i: HackingTools\WinSock2.c.i
+
+.PHONY : HackingTools\WinSock2.i
+
+# target to preprocess a source file
+HackingTools\WinSock2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WinSock2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\WinSock2.dir\HackingTools\WinSock2.c.i
+.PHONY : HackingTools\WinSock2.c.i
+
+HackingTools\WinSock2.s: HackingTools\WinSock2.c.s
+
+.PHONY : HackingTools\WinSock2.s
+
+# target to generate assembly for a file
+HackingTools\WinSock2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WinSock2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\WinSock2.dir\HackingTools\WinSock2.c.s
+.PHONY : HackingTools\WinSock2.c.s
 
 IfStatement.obj: IfStatement.c.obj
 
@@ -1224,8 +1304,10 @@ help:
 	@echo ... ReadingFiles
 	@echo ... ReturnStatement
 	@echo ... Structs
+	@echo ... StudentRecordManagementSystem
 	@echo ... Variables
 	@echo ... WhileLoops
+	@echo ... WinSock2
 	@echo ... WorkingWithNumbers
 	@echo ... WritingFiles
 	@echo ... getDataFromGithub
@@ -1235,6 +1317,9 @@ help:
 	@echo ... Applications/GreatValue.obj
 	@echo ... Applications/GreatValue.i
 	@echo ... Applications/GreatValue.s
+	@echo ... Applications/StudentRecordManagementSystem.obj
+	@echo ... Applications/StudentRecordManagementSystem.i
+	@echo ... Applications/StudentRecordManagementSystem.s
 	@echo ... Array.obj
 	@echo ... Array.i
 	@echo ... Array.s
@@ -1271,6 +1356,9 @@ help:
 	@echo ... GettingUserInput.obj
 	@echo ... GettingUserInput.i
 	@echo ... GettingUserInput.s
+	@echo ... HackingTools/WinSock2.obj
+	@echo ... HackingTools/WinSock2.i
+	@echo ... HackingTools/WinSock2.s
 	@echo ... IfStatement.obj
 	@echo ... IfStatement.i
 	@echo ... IfStatement.s

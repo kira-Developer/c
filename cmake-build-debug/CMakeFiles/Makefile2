@@ -84,6 +84,8 @@ all: CMakeFiles\ReadingFiles.dir\all
 all: CMakeFiles\getDataFromGithub.dir\all
 all: CMakeFiles\GreatValue.dir\all
 all: CMakeFiles\DigitalClock.dir\all
+all: CMakeFiles\StudentRecordManagementSystem.dir\all
+all: CMakeFiles\WinSock2.dir\all
 
 .PHONY : all
 
@@ -120,6 +122,8 @@ clean: CMakeFiles\ReadingFiles.dir\clean
 clean: CMakeFiles\getDataFromGithub.dir\clean
 clean: CMakeFiles\GreatValue.dir\clean
 clean: CMakeFiles\DigitalClock.dir\clean
+clean: CMakeFiles\StudentRecordManagementSystem.dir\clean
+clean: CMakeFiles\WinSock2.dir\clean
 
 .PHONY : clean
 
@@ -184,7 +188,7 @@ CMakeFiles\Query.dir\clean:
 CMakeFiles\Variables.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Variables.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Variables.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Variables.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Variables.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\kira\Desktop\C\cmake-build-debug\CMakeFiles --progress-num=45,46 "Built target Variables"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\kira\Desktop\C\cmake-build-debug\CMakeFiles --progress-num=47,48 "Built target Variables"
 .PHONY : CMakeFiles\Variables.dir\all
 
 # Build rule for subdir invocation for target.
@@ -319,7 +323,7 @@ CMakeFiles\GettingUserInput.dir\clean:
 CMakeFiles\WorkingWithNumbers.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\WorkingWithNumbers.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\WorkingWithNumbers.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\WorkingWithNumbers.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\WorkingWithNumbers.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\kira\Desktop\C\cmake-build-debug\CMakeFiles --progress-num=49,50 "Built target WorkingWithNumbers"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\kira\Desktop\C\cmake-build-debug\CMakeFiles --progress-num=53,54 "Built target WorkingWithNumbers"
 .PHONY : CMakeFiles\WorkingWithNumbers.dir\all
 
 # Build rule for subdir invocation for target.
@@ -562,7 +566,7 @@ CMakeFiles\BuildingAGuessingGame.dir\clean:
 CMakeFiles\WhileLoops.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\WhileLoops.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\WhileLoops.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\WhileLoops.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\WhileLoops.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\kira\Desktop\C\cmake-build-debug\CMakeFiles --progress-num=47,48 "Built target WhileLoops"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\kira\Desktop\C\cmake-build-debug\CMakeFiles --progress-num=49,50 "Built target WhileLoops"
 .PHONY : CMakeFiles\WhileLoops.dir\all
 
 # Build rule for subdir invocation for target.
@@ -616,7 +620,7 @@ CMakeFiles\ForLoops.dir\clean:
 CMakeFiles\WritingFiles.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\WritingFiles.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\WritingFiles.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\WritingFiles.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\WritingFiles.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\kira\Desktop\C\cmake-build-debug\CMakeFiles --progress-num=51,52 "Built target WritingFiles"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\kira\Desktop\C\cmake-build-debug\CMakeFiles --progress-num=55,56 "Built target WritingFiles"
 .PHONY : CMakeFiles\WritingFiles.dir\all
 
 # Build rule for subdir invocation for target.
@@ -778,7 +782,7 @@ CMakeFiles\ReadingFiles.dir\clean:
 CMakeFiles\getDataFromGithub.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\getDataFromGithub.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\getDataFromGithub.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\getDataFromGithub.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\getDataFromGithub.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\kira\Desktop\C\cmake-build-debug\CMakeFiles --progress-num=53,54 "Built target getDataFromGithub"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\kira\Desktop\C\cmake-build-debug\CMakeFiles --progress-num=57,58 "Built target getDataFromGithub"
 .PHONY : CMakeFiles\getDataFromGithub.dir\all
 
 # Build rule for subdir invocation for target.
@@ -851,6 +855,60 @@ DigitalClock: CMakeFiles\DigitalClock.dir\rule
 CMakeFiles\DigitalClock.dir\clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DigitalClock.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DigitalClock.dir\clean
 .PHONY : CMakeFiles\DigitalClock.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/StudentRecordManagementSystem.dir
+
+# All Build rule for target.
+CMakeFiles\StudentRecordManagementSystem.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StudentRecordManagementSystem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\StudentRecordManagementSystem.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StudentRecordManagementSystem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\StudentRecordManagementSystem.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\kira\Desktop\C\cmake-build-debug\CMakeFiles --progress-num=45,46 "Built target StudentRecordManagementSystem"
+.PHONY : CMakeFiles\StudentRecordManagementSystem.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\StudentRecordManagementSystem.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kira\Desktop\C\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\StudentRecordManagementSystem.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kira\Desktop\C\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\StudentRecordManagementSystem.dir\rule
+
+# Convenience name for target.
+StudentRecordManagementSystem: CMakeFiles\StudentRecordManagementSystem.dir\rule
+
+.PHONY : StudentRecordManagementSystem
+
+# clean rule for target.
+CMakeFiles\StudentRecordManagementSystem.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StudentRecordManagementSystem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\StudentRecordManagementSystem.dir\clean
+.PHONY : CMakeFiles\StudentRecordManagementSystem.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/WinSock2.dir
+
+# All Build rule for target.
+CMakeFiles\WinSock2.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WinSock2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\WinSock2.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WinSock2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\WinSock2.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\kira\Desktop\C\cmake-build-debug\CMakeFiles --progress-num=51,52 "Built target WinSock2"
+.PHONY : CMakeFiles\WinSock2.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\WinSock2.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kira\Desktop\C\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\WinSock2.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kira\Desktop\C\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\WinSock2.dir\rule
+
+# Convenience name for target.
+WinSock2: CMakeFiles\WinSock2.dir\rule
+
+.PHONY : WinSock2
+
+# clean rule for target.
+CMakeFiles\WinSock2.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WinSock2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\WinSock2.dir\clean
+.PHONY : CMakeFiles\WinSock2.dir\clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

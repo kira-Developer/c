@@ -97,4 +97,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/getDataFromGithub.dir/DependInfo.cmake"
   "CMakeFiles/GreatValue.dir/DependInfo.cmake"
   "CMakeFiles/DigitalClock.dir/DependInfo.cmake"
+  "CMakeFiles/StudentRecordManagementSystem.dir/DependInfo.cmake"
+  "CMakeFiles/WinSock2.dir/DependInfo.cmake"
   )

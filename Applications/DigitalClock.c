@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <conio.h>
 #include<windows.h>
+
 void main(){
     int h=0 , m=0 , s=0;
     system("cls");

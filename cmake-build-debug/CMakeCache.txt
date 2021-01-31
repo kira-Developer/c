@@ -17,15 +17,6 @@
 //Path to a file.
 Boost_INCLUDE_DIR:PATH=C:/vcpkg/installed/x86-windows/include
 
-//Boost library directory RELEASE
-Boost_LIBRARY_DIR_RELEASE:PATH=C:/vcpkg/installed/x86-windows/lib
-
-//Boost regex library (debug)
-Boost_REGEX_LIBRARY_DEBUG:FILEPATH=Boost_REGEX_LIBRARY_DEBUG-NOTFOUND
-
-//Boost regex library (release)
-Boost_REGEX_LIBRARY_RELEASE:FILEPATH=C:/vcpkg/installed/x86-windows/lib/boost_regex-vc140-mt.lib
-
 //Choose the type of build, options are: None Debug Release RelWithDebInfo
 // MinSizeRel ...
 CMAKE_BUILD_TYPE:STRING=Debug
@@ -290,12 +281,6 @@ unofficial-libmariadb_DIR:PATH=C:/vcpkg/installed/x86-windows/share/unofficial-l
 
 //ADVANCED property for variable: Boost_INCLUDE_DIR
 Boost_INCLUDE_DIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: Boost_LIBRARY_DIR_RELEASE
-Boost_LIBRARY_DIR_RELEASE-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: Boost_REGEX_LIBRARY_DEBUG
-Boost_REGEX_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: Boost_REGEX_LIBRARY_RELEASE
-Boost_REGEX_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 //This is the directory where this CMakeCache.txt was created
 CMAKE_CACHEFILE_DIR:INTERNAL=c:/Users/kira/Desktop/C/cmake-build-debug
 //Major version of cmake used to create the current loaded cache
@@ -449,11 +434,9 @@ ZLIB_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 //Last used Boost_COMPILER value.
 _Boost_COMPILER_LAST:INTERNAL=-vc140
 //Components requested for this build tree.
-_Boost_COMPONENTS_SEARCHED:INTERNAL=regex
+_Boost_COMPONENTS_SEARCHED:INTERNAL=
 //Last used Boost_INCLUDE_DIR value.
 _Boost_INCLUDE_DIR_LAST:INTERNAL=C:/vcpkg/installed/x86-windows/include
-//Last used Boost_LIBRARY_DIR_RELEASE value.
-_Boost_LIBRARY_DIR_RELEASE_LAST:INTERNAL=C:/vcpkg/installed/x86-windows/lib
 //Last used Boost_NAMESPACE value.
 _Boost_NAMESPACE_LAST:INTERNAL=boost
 //Last used Boost_USE_MULTITHREADED value.
