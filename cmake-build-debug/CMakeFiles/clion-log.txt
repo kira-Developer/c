@@ -1,4 +1,6 @@
 "C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" C:\Users\kira\Desktop\C
+-- Found ZLIB: optimized;C:/vcpkg/installed/x86-windows/lib/zlib.lib;debug;C:/vcpkg/installed/x86-windows/debug/lib/zlibd.lib (found version "1.2.11") 
+-- Found ZLIB: optimized;C:/vcpkg/installed/x86-windows/lib/zlib.lib;debug;C:/vcpkg/installed/x86-windows/debug/lib/zlibd.lib (found suitable version "1.2.11", minimum required is "1") 
 -- Configuring done
 -- Generating done
 -- Build files have been written to: C:/Users/kira/Desktop/C/cmake-build-debug

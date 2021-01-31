@@ -3,9 +3,15 @@
 
 int main()
 {
-    int number = 12;
-    int *pinter = &number;
-    printf("%u\n", pinter);
+    int age = 18;
+    int* pAge =&age;
+    double gpa = 3.4;
+    double* pGpa = &gpa;
+    char grade = 'A';
+    char* pGrade = &grade;  
+
+    printf("Age's Memory Address: %p\n" , &age);
+
     return 0;
     
 }

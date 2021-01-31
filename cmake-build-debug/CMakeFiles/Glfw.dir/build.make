@@ -61,39 +61,43 @@ include CMakeFiles\Glfw.dir\progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles\Glfw.dir\flags.make
 
-CMakeFiles\Glfw.dir\Glfw.c.obj: CMakeFiles\Glfw.dir\flags.make
-CMakeFiles\Glfw.dir\Glfw.c.obj: ..\Glfw.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\kira\Desktop\C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Glfw.dir/Glfw.c.obj"
+CMakeFiles\Glfw.dir\GLFW\Glfw.c.obj: CMakeFiles\Glfw.dir\flags.make
+CMakeFiles\Glfw.dir\GLFW\Glfw.c.obj: ..\GLFW\Glfw.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\kira\Desktop\C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Glfw.dir/GLFW/Glfw.c.obj"
 	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\Glfw.dir\Glfw.c.obj /FdCMakeFiles\Glfw.dir\ /FS -c C:\Users\kira\Desktop\C\Glfw.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\Glfw.dir\GLFW\Glfw.c.obj /FdCMakeFiles\Glfw.dir\ /FS -c C:\Users\kira\Desktop\C\GLFW\Glfw.c
 <<
 
-CMakeFiles\Glfw.dir\Glfw.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Glfw.dir/Glfw.c.i"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\Glfw.dir\Glfw.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\kira\Desktop\C\Glfw.c
+CMakeFiles\Glfw.dir\GLFW\Glfw.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Glfw.dir/GLFW/Glfw.c.i"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\Glfw.dir\GLFW\Glfw.c.i @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\kira\Desktop\C\GLFW\Glfw.c
 <<
 
-CMakeFiles\Glfw.dir\Glfw.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Glfw.dir/Glfw.c.s"
+CMakeFiles\Glfw.dir\GLFW\Glfw.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Glfw.dir/GLFW/Glfw.c.s"
 	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\Glfw.dir\Glfw.c.s /c C:\Users\kira\Desktop\C\Glfw.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\Glfw.dir\GLFW\Glfw.c.s /c C:\Users\kira\Desktop\C\GLFW\Glfw.c
 <<
 
 # Object files for target Glfw
 Glfw_OBJECTS = \
-"CMakeFiles\Glfw.dir\Glfw.c.obj"
+"CMakeFiles\Glfw.dir\GLFW\Glfw.c.obj"
 
 # External object files for target Glfw
 Glfw_EXTERNAL_OBJECTS =
 
-Glfw.exe: CMakeFiles\Glfw.dir\Glfw.c.obj
+Glfw.exe: CMakeFiles\Glfw.dir\GLFW\Glfw.c.obj
 Glfw.exe: CMakeFiles\Glfw.dir\build.make
 Glfw.exe: C:\vcpkg\installed\x86-windows\debug\lib\glfw3dll.lib
+Glfw.exe: C:\vcpkg\installed\x86-windows\debug\lib\libEGL.lib
+Glfw.exe: C:\vcpkg\installed\x86-windows\debug\lib\libANGLE.lib
+Glfw.exe: C:\vcpkg\installed\x86-windows\debug\lib\libGLESv2.lib
+Glfw.exe: "C:\Program Files (x86)\Windows Kits\10\Lib\10.0.18362.0\um\x86\d3d9.lib"
 Glfw.exe: CMakeFiles\Glfw.dir\objects1.rsp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\kira\Desktop\C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable Glfw.exe"
 	"C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\Glfw.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\Glfw.dir\objects1.rsp @<<
- /out:Glfw.exe /implib:Glfw.lib /pdb:C:\Users\kira\Desktop\C\cmake-build-debug\Glfw.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console  C:\vcpkg\installed\x86-windows\debug\lib\glfw3dll.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
+ /out:Glfw.exe /implib:Glfw.lib /pdb:C:\Users\kira\Desktop\C\cmake-build-debug\Glfw.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console  C:\vcpkg\installed\x86-windows\debug\lib\glfw3dll.lib C:\vcpkg\installed\x86-windows\debug\lib\libEGL.lib C:\vcpkg\installed\x86-windows\debug\lib\libANGLE.lib C:\vcpkg\installed\x86-windows\debug\lib\libGLESv2.lib setupapi.lib dxgi.lib d3d11.lib dxguid.lib "C:\Program Files (x86)\Windows Kits\10\Lib\10.0.18362.0\um\x86\d3d9.lib" gdi32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
 	C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/kira/Desktop/C/cmake-build-debug/Glfw.exe -installedDir C:/vcpkg/installed/x86-windows/debug/bin -OutVariable out
 

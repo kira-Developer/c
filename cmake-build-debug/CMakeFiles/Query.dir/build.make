@@ -89,16 +89,16 @@ Query_EXTERNAL_OBJECTS =
 
 Query.exe: CMakeFiles\Query.dir\Query.c.obj
 Query.exe: CMakeFiles\Query.dir\build.make
+Query.exe: C:\vcpkg\installed\x86-windows\debug\lib\gdal_i_d.lib
 Query.exe: C:\vcpkg\installed\x86-windows\debug\lib\libmariadb.lib
 Query.exe: C:\vcpkg\installed\x86-windows\debug\lib\mariadbclient.lib
-Query.exe: C:\vcpkg\installed\x86-windows\debug\lib\gdal_i_d.lib
 Query.exe: C:\vcpkg\installed\x86-windows\debug\lib\zlibd.lib
 Query.exe: C:\vcpkg\installed\x86-windows\lib\libssl.lib
 Query.exe: C:\vcpkg\installed\x86-windows\lib\libcrypto.lib
 Query.exe: CMakeFiles\Query.dir\objects1.rsp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\kira\Desktop\C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable Query.exe"
 	"C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\Query.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\Query.dir\objects1.rsp @<<
- /out:Query.exe /implib:Query.lib /pdb:C:\Users\kira\Desktop\C\cmake-build-debug\Query.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console  C:\vcpkg\installed\x86-windows\debug\lib\libmariadb.lib C:\vcpkg\installed\x86-windows\debug\lib\mariadbclient.lib C:\vcpkg\installed\x86-windows\debug\lib\gdal_i_d.lib ws2_32.lib advapi32.lib kernel32.lib shlwapi.lib crypt32.lib C:\vcpkg\installed\x86-windows\debug\lib\zlibd.lib C:\vcpkg\installed\x86-windows\lib\libssl.lib C:\vcpkg\installed\x86-windows\lib\libcrypto.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
+ /out:Query.exe /implib:Query.lib /pdb:C:\Users\kira\Desktop\C\cmake-build-debug\Query.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console  C:\vcpkg\installed\x86-windows\debug\lib\gdal_i_d.lib C:\vcpkg\installed\x86-windows\debug\lib\libmariadb.lib C:\vcpkg\installed\x86-windows\debug\lib\mariadbclient.lib ws2_32.lib advapi32.lib kernel32.lib shlwapi.lib crypt32.lib C:\vcpkg\installed\x86-windows\debug\lib\zlibd.lib C:\vcpkg\installed\x86-windows\lib\libssl.lib C:\vcpkg\installed\x86-windows\lib\libcrypto.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
 	C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/kira/Desktop/C/cmake-build-debug/Query.exe -installedDir C:/vcpkg/installed/x86-windows/debug/bin -OutVariable out
 

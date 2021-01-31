@@ -6,5 +6,5 @@ C_FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
 
 C_DEFINES = 
 
-C_INCLUDES = -IC:\vcpkg\installed\x86-windows\include -IC:\vcpkg\installed\x86-windows\include\mysql 
+C_INCLUDES = -IC:\vcpkg\installed\x86-windows\include -IC:\Users\kira\Desktop\C\getDataFromGithub -IC:\Users\kira\Desktop\C\PUBLIC -IC:\vcpkg\installed\x86-windows\include\mysql 
 

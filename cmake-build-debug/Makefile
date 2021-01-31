@@ -349,6 +349,32 @@ ForLoops\fast:
 .PHONY : ForLoops\fast
 
 #=============================================================================
+# Target rules for targets named WritingFiles
+
+# Build rule for target.
+WritingFiles: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) WritingFiles
+.PHONY : WritingFiles
+
+# fast build rule for target.
+WritingFiles\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WritingFiles.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\WritingFiles.dir\build
+.PHONY : WritingFiles\fast
+
+#=============================================================================
+# Target rules for targets named DereferencingPointers
+
+# Build rule for target.
+DereferencingPointers: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) DereferencingPointers
+.PHONY : DereferencingPointers
+
+# fast build rule for target.
+DereferencingPointers\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DereferencingPointers.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DereferencingPointers.dir\build
+.PHONY : DereferencingPointers\fast
+
+#=============================================================================
 # Target rules for targets named ArraysAndNestedLoops
 
 # Build rule for target.
@@ -386,6 +412,72 @@ Pointers: cmake_check_build_system
 Pointers\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pointers.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Pointers.dir\build
 .PHONY : Pointers\fast
+
+#=============================================================================
+# Target rules for targets named ReadingFiles
+
+# Build rule for target.
+ReadingFiles: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) ReadingFiles
+.PHONY : ReadingFiles
+
+# fast build rule for target.
+ReadingFiles\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ReadingFiles.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ReadingFiles.dir\build
+.PHONY : ReadingFiles\fast
+
+#=============================================================================
+# Target rules for targets named getDataFromGithub
+
+# Build rule for target.
+getDataFromGithub: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) getDataFromGithub
+.PHONY : getDataFromGithub
+
+# fast build rule for target.
+getDataFromGithub\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\getDataFromGithub.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\getDataFromGithub.dir\build
+.PHONY : getDataFromGithub\fast
+
+#=============================================================================
+# Target rules for targets named GreatValue
+
+# Build rule for target.
+GreatValue: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) GreatValue
+.PHONY : GreatValue
+
+# fast build rule for target.
+GreatValue\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GreatValue.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GreatValue.dir\build
+.PHONY : GreatValue\fast
+
+Applications\GreatValue.obj: Applications\GreatValue.c.obj
+
+.PHONY : Applications\GreatValue.obj
+
+# target to build an object file
+Applications\GreatValue.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GreatValue.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GreatValue.dir\Applications\GreatValue.c.obj
+.PHONY : Applications\GreatValue.c.obj
+
+Applications\GreatValue.i: Applications\GreatValue.c.i
+
+.PHONY : Applications\GreatValue.i
+
+# target to preprocess a source file
+Applications\GreatValue.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GreatValue.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GreatValue.dir\Applications\GreatValue.c.i
+.PHONY : Applications\GreatValue.c.i
+
+Applications\GreatValue.s: Applications\GreatValue.c.s
+
+.PHONY : Applications\GreatValue.s
+
+# target to generate assembly for a file
+Applications\GreatValue.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GreatValue.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GreatValue.dir\Applications\GreatValue.c.s
+.PHONY : Applications\GreatValue.c.s
 
 Array.obj: Array.c.obj
 
@@ -576,6 +668,33 @@ Constants.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Constants.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Constants.dir\Constants.c.s
 .PHONY : Constants.c.s
 
+DereferencingPointers.obj: DereferencingPointers.c.obj
+
+.PHONY : DereferencingPointers.obj
+
+# target to build an object file
+DereferencingPointers.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DereferencingPointers.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DereferencingPointers.dir\DereferencingPointers.c.obj
+.PHONY : DereferencingPointers.c.obj
+
+DereferencingPointers.i: DereferencingPointers.c.i
+
+.PHONY : DereferencingPointers.i
+
+# target to preprocess a source file
+DereferencingPointers.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DereferencingPointers.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DereferencingPointers.dir\DereferencingPointers.c.i
+.PHONY : DereferencingPointers.c.i
+
+DereferencingPointers.s: DereferencingPointers.c.s
+
+.PHONY : DereferencingPointers.s
+
+# target to generate assembly for a file
+DereferencingPointers.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DereferencingPointers.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DereferencingPointers.dir\DereferencingPointers.c.s
+.PHONY : DereferencingPointers.c.s
+
 ForLoops.obj: ForLoops.c.obj
 
 .PHONY : ForLoops.obj
@@ -630,6 +749,33 @@ Functions.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Functions.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Functions.dir\Functions.c.s
 .PHONY : Functions.c.s
 
+GLFW\Glfw.obj: GLFW\Glfw.c.obj
+
+.PHONY : GLFW\Glfw.obj
+
+# target to build an object file
+GLFW\Glfw.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Glfw.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Glfw.dir\GLFW\Glfw.c.obj
+.PHONY : GLFW\Glfw.c.obj
+
+GLFW\Glfw.i: GLFW\Glfw.c.i
+
+.PHONY : GLFW\Glfw.i
+
+# target to preprocess a source file
+GLFW\Glfw.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Glfw.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Glfw.dir\GLFW\Glfw.c.i
+.PHONY : GLFW\Glfw.c.i
+
+GLFW\Glfw.s: GLFW\Glfw.c.s
+
+.PHONY : GLFW\Glfw.s
+
+# target to generate assembly for a file
+GLFW\Glfw.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Glfw.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Glfw.dir\GLFW\Glfw.c.s
+.PHONY : GLFW\Glfw.c.s
+
 GettingUserInput.obj: GettingUserInput.c.obj
 
 .PHONY : GettingUserInput.obj
@@ -656,33 +802,6 @@ GettingUserInput.s: GettingUserInput.c.s
 GettingUserInput.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GettingUserInput.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GettingUserInput.dir\GettingUserInput.c.s
 .PHONY : GettingUserInput.c.s
-
-Glfw.obj: Glfw.c.obj
-
-.PHONY : Glfw.obj
-
-# target to build an object file
-Glfw.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Glfw.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Glfw.dir\Glfw.c.obj
-.PHONY : Glfw.c.obj
-
-Glfw.i: Glfw.c.i
-
-.PHONY : Glfw.i
-
-# target to preprocess a source file
-Glfw.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Glfw.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Glfw.dir\Glfw.c.i
-.PHONY : Glfw.c.i
-
-Glfw.s: Glfw.c.s
-
-.PHONY : Glfw.s
-
-# target to generate assembly for a file
-Glfw.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Glfw.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Glfw.dir\Glfw.c.s
-.PHONY : Glfw.c.s
 
 IfStatement.obj: IfStatement.c.obj
 
@@ -819,6 +938,33 @@ Query.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Query.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Query.dir\Query.c.s
 .PHONY : Query.c.s
 
+ReadingFiles.obj: ReadingFiles.c.obj
+
+.PHONY : ReadingFiles.obj
+
+# target to build an object file
+ReadingFiles.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ReadingFiles.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ReadingFiles.dir\ReadingFiles.c.obj
+.PHONY : ReadingFiles.c.obj
+
+ReadingFiles.i: ReadingFiles.c.i
+
+.PHONY : ReadingFiles.i
+
+# target to preprocess a source file
+ReadingFiles.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ReadingFiles.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ReadingFiles.dir\ReadingFiles.c.i
+.PHONY : ReadingFiles.c.i
+
+ReadingFiles.s: ReadingFiles.c.s
+
+.PHONY : ReadingFiles.s
+
+# target to generate assembly for a file
+ReadingFiles.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ReadingFiles.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ReadingFiles.dir\ReadingFiles.c.s
+.PHONY : ReadingFiles.c.s
+
 ReturnStatement.obj: ReturnStatement.c.obj
 
 .PHONY : ReturnStatement.obj
@@ -900,6 +1046,33 @@ Variables.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Variables.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Variables.dir\Variables.c.s
 .PHONY : Variables.c.s
 
+WEBSCRAPER\getDataFromGithub.obj: WEBSCRAPER\getDataFromGithub.c.obj
+
+.PHONY : WEBSCRAPER\getDataFromGithub.obj
+
+# target to build an object file
+WEBSCRAPER\getDataFromGithub.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\getDataFromGithub.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\getDataFromGithub.dir\WEBSCRAPER\getDataFromGithub.c.obj
+.PHONY : WEBSCRAPER\getDataFromGithub.c.obj
+
+WEBSCRAPER\getDataFromGithub.i: WEBSCRAPER\getDataFromGithub.c.i
+
+.PHONY : WEBSCRAPER\getDataFromGithub.i
+
+# target to preprocess a source file
+WEBSCRAPER\getDataFromGithub.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\getDataFromGithub.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\getDataFromGithub.dir\WEBSCRAPER\getDataFromGithub.c.i
+.PHONY : WEBSCRAPER\getDataFromGithub.c.i
+
+WEBSCRAPER\getDataFromGithub.s: WEBSCRAPER\getDataFromGithub.c.s
+
+.PHONY : WEBSCRAPER\getDataFromGithub.s
+
+# target to generate assembly for a file
+WEBSCRAPER\getDataFromGithub.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\getDataFromGithub.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\getDataFromGithub.dir\WEBSCRAPER\getDataFromGithub.c.s
+.PHONY : WEBSCRAPER\getDataFromGithub.c.s
+
 WhileLoops.obj: WhileLoops.c.obj
 
 .PHONY : WhileLoops.obj
@@ -954,6 +1127,33 @@ WorkingWithNumbers.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\WorkingWithNumbers.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\WorkingWithNumbers.dir\WorkingWithNumbers.c.s
 .PHONY : WorkingWithNumbers.c.s
 
+WritingFiles.obj: WritingFiles.c.obj
+
+.PHONY : WritingFiles.obj
+
+# target to build an object file
+WritingFiles.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WritingFiles.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\WritingFiles.dir\WritingFiles.c.obj
+.PHONY : WritingFiles.c.obj
+
+WritingFiles.i: WritingFiles.c.i
+
+.PHONY : WritingFiles.i
+
+# target to preprocess a source file
+WritingFiles.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WritingFiles.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\WritingFiles.dir\WritingFiles.c.i
+.PHONY : WritingFiles.c.i
+
+WritingFiles.s: WritingFiles.c.s
+
+.PHONY : WritingFiles.s
+
+# target to generate assembly for a file
+WritingFiles.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WritingFiles.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\WritingFiles.dir\WritingFiles.c.s
+.PHONY : WritingFiles.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -969,20 +1169,28 @@ help:
 	@echo ... BuildingAGuessingGame
 	@echo ... BuildingAMadLibsGame
 	@echo ... Constants
+	@echo ... DereferencingPointers
 	@echo ... ForLoops
 	@echo ... Functions
 	@echo ... GettingUserInput
 	@echo ... Glfw
+	@echo ... GreatValue
 	@echo ... IfStatement
 	@echo ... MemoryAddresses
 	@echo ... Pointers
 	@echo ... Printf
 	@echo ... Query
+	@echo ... ReadingFiles
 	@echo ... ReturnStatement
 	@echo ... Structs
 	@echo ... Variables
 	@echo ... WhileLoops
 	@echo ... WorkingWithNumbers
+	@echo ... WritingFiles
+	@echo ... getDataFromGithub
+	@echo ... Applications/GreatValue.obj
+	@echo ... Applications/GreatValue.i
+	@echo ... Applications/GreatValue.s
 	@echo ... Array.obj
 	@echo ... Array.i
 	@echo ... Array.s
@@ -1004,18 +1212,21 @@ help:
 	@echo ... Constants.obj
 	@echo ... Constants.i
 	@echo ... Constants.s
+	@echo ... DereferencingPointers.obj
+	@echo ... DereferencingPointers.i
+	@echo ... DereferencingPointers.s
 	@echo ... ForLoops.obj
 	@echo ... ForLoops.i
 	@echo ... ForLoops.s
 	@echo ... Functions.obj
 	@echo ... Functions.i
 	@echo ... Functions.s
+	@echo ... GLFW/Glfw.obj
+	@echo ... GLFW/Glfw.i
+	@echo ... GLFW/Glfw.s
 	@echo ... GettingUserInput.obj
 	@echo ... GettingUserInput.i
 	@echo ... GettingUserInput.s
-	@echo ... Glfw.obj
-	@echo ... Glfw.i
-	@echo ... Glfw.s
 	@echo ... IfStatement.obj
 	@echo ... IfStatement.i
 	@echo ... IfStatement.s
@@ -1031,6 +1242,9 @@ help:
 	@echo ... Query.obj
 	@echo ... Query.i
 	@echo ... Query.s
+	@echo ... ReadingFiles.obj
+	@echo ... ReadingFiles.i
+	@echo ... ReadingFiles.s
 	@echo ... ReturnStatement.obj
 	@echo ... ReturnStatement.i
 	@echo ... ReturnStatement.s
@@ -1040,12 +1254,18 @@ help:
 	@echo ... Variables.obj
 	@echo ... Variables.i
 	@echo ... Variables.s
+	@echo ... WEBSCRAPER/getDataFromGithub.obj
+	@echo ... WEBSCRAPER/getDataFromGithub.i
+	@echo ... WEBSCRAPER/getDataFromGithub.s
 	@echo ... WhileLoops.obj
 	@echo ... WhileLoops.i
 	@echo ... WhileLoops.s
 	@echo ... WorkingWithNumbers.obj
 	@echo ... WorkingWithNumbers.i
 	@echo ... WorkingWithNumbers.s
+	@echo ... WritingFiles.obj
+	@echo ... WritingFiles.i
+	@echo ... WritingFiles.s
 .PHONY : help
 
 

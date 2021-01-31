@@ -16,8 +16,13 @@ C:/Users/kira/Desktop/C/cmake-build-debug/CMakeFiles/Structs.dir
 C:/Users/kira/Desktop/C/cmake-build-debug/CMakeFiles/BuildingAGuessingGame.dir
 C:/Users/kira/Desktop/C/cmake-build-debug/CMakeFiles/WhileLoops.dir
 C:/Users/kira/Desktop/C/cmake-build-debug/CMakeFiles/ForLoops.dir
+C:/Users/kira/Desktop/C/cmake-build-debug/CMakeFiles/WritingFiles.dir
+C:/Users/kira/Desktop/C/cmake-build-debug/CMakeFiles/DereferencingPointers.dir
 C:/Users/kira/Desktop/C/cmake-build-debug/CMakeFiles/ArraysAndNestedLoops.dir
 C:/Users/kira/Desktop/C/cmake-build-debug/CMakeFiles/MemoryAddresses.dir
 C:/Users/kira/Desktop/C/cmake-build-debug/CMakeFiles/Pointers.dir
+C:/Users/kira/Desktop/C/cmake-build-debug/CMakeFiles/ReadingFiles.dir
 C:/Users/kira/Desktop/C/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/kira/Desktop/C/cmake-build-debug/CMakeFiles/getDataFromGithub.dir
+C:/Users/kira/Desktop/C/cmake-build-debug/CMakeFiles/GreatValue.dir
 C:/Users/kira/Desktop/C/cmake-build-debug/CMakeFiles/rebuild_cache.dir

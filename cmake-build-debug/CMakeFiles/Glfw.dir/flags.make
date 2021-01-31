@@ -4,7 +4,7 @@
 # compile C with C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.28.29333/bin/Hostx86/x86/cl.exe
 C_FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd  
 
-C_DEFINES = -DGLFW_DLL
+C_DEFINES = -DANGLE_EXPORT="" -DANGLE_UTIL_EXPORT="" -DEGLAPI="" -DEGL_EGLEXT_PROTOTYPES -DEGL_EGL_PROTOTYPES=1 -DGLFW_DLL -DGL_API="" -DGL_APICALL="" -DGL_GLES_PROTOTYPES=1 -DGL_GLEXT_PROTOTYPES -DLIBANGLE_IMPLEMENTATION
 
-C_INCLUDES = -IC:\vcpkg\installed\x86-windows\include 
+C_INCLUDES = -IC:\Users\kira\Desktop\C\getDataFromGithub -IC:\Users\kira\Desktop\C\PUBLIC -IC:\vcpkg\installed\x86-windows\include 
 

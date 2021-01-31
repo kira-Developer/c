@@ -14,6 +14,18 @@
 # EXTERNAL cache entries
 ########################
 
+//Path to a file.
+Boost_INCLUDE_DIR:PATH=C:/vcpkg/installed/x86-windows/include
+
+//Boost library directory RELEASE
+Boost_LIBRARY_DIR_RELEASE:PATH=C:/vcpkg/installed/x86-windows/lib
+
+//Boost regex library (debug)
+Boost_REGEX_LIBRARY_DEBUG:FILEPATH=Boost_REGEX_LIBRARY_DEBUG-NOTFOUND
+
+//Boost regex library (release)
+Boost_REGEX_LIBRARY_RELEASE:FILEPATH=C:/vcpkg/installed/x86-windows/lib/boost_regex-vc140-mt.lib
+
 //Choose the type of build, options are: None Debug Release RelWithDebInfo
 // MinSizeRel ...
 CMAKE_BUILD_TYPE:STRING=Debug
@@ -69,7 +81,7 @@ CMAKE_EXE_LINKER_FLAGS_RELEASE:STRING=/INCREMENTAL:NO
 CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=/debug /INCREMENTAL
 
 //Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/CTest
+CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/C
 
 //Path to a program.
 CMAKE_LINKER:FILEPATH=C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.28.29333/bin/Hostx86/x86/link.exe
@@ -183,11 +195,8 @@ CMAKE_TOOLCHAIN_FILE:FILEPATH=C:/vcpkg/scripts/buildsystems/vcpkg.cmake
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
-//Value Computed by CMake
-CTest_BINARY_DIR:STATIC=C:/Users/kira/Desktop/C/cmake-build-debug
-
-//Value Computed by CMake
-CTest_SOURCE_DIR:STATIC=C:/Users/kira/Desktop/C
+//The directory containing a CMake configuration file for CURL.
+CURL_DIR:PATH=C:/vcpkg/installed/x86-windows/share/curl
 
 //Value Computed by CMake
 C_BINARY_DIR:STATIC=C:/Users/kira/Desktop/C/cmake-build-debug
@@ -268,6 +277,9 @@ _VCPKG_PWSH_PATH:FILEPATH=_VCPKG_PWSH_PATH-NOTFOUND
 //The directory containing a CMake configuration file for glfw3.
 glfw3_DIR:PATH=C:/vcpkg/installed/x86-windows/share/glfw3
 
+//The directory containing a CMake configuration file for unofficial-angle.
+unofficial-angle_DIR:PATH=C:/vcpkg/installed/x86-windows/share/unofficial-angle
+
 //The directory containing a CMake configuration file for unofficial-libmariadb.
 unofficial-libmariadb_DIR:PATH=C:/vcpkg/installed/x86-windows/share/unofficial-libmariadb
 
@@ -276,6 +288,14 @@ unofficial-libmariadb_DIR:PATH=C:/vcpkg/installed/x86-windows/share/unofficial-l
 # INTERNAL cache entries
 ########################
 
+//ADVANCED property for variable: Boost_INCLUDE_DIR
+Boost_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_LIBRARY_DIR_RELEASE
+Boost_LIBRARY_DIR_RELEASE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_REGEX_LIBRARY_DEBUG
+Boost_REGEX_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_REGEX_LIBRARY_RELEASE
+Boost_REGEX_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 //This is the directory where this CMakeCache.txt was created
 CMAKE_CACHEFILE_DIR:INTERNAL=c:/Users/kira/Desktop/C/cmake-build-debug
 //Major version of cmake used to create the current loaded cache
@@ -396,10 +416,12 @@ CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 CMAKE_TOOLCHAIN_FILE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Details about finding Boost
+FIND_PACKAGE_MESSAGE_DETAILS_Boost:INTERNAL=[C:/vcpkg/installed/x86-windows/include][c ][v1.75.0()]
 //Details about finding OpenSSL
 FIND_PACKAGE_MESSAGE_DETAILS_OpenSSL:INTERNAL=[C:/vcpkg/installed/x86-windows/debug/lib/libcrypto.lib][C:/vcpkg/installed/x86-windows/include][c ][v1.1.1i()]
 //Details about finding ZLIB
-FIND_PACKAGE_MESSAGE_DETAILS_ZLIB:INTERNAL=[optimized;C:/vcpkg/installed/x86-windows/lib/zlib.lib;debug;C:/vcpkg/installed/x86-windows/debug/lib/zlibd.lib][C:/vcpkg/installed/x86-windows/include][v1.2.11()]
+FIND_PACKAGE_MESSAGE_DETAILS_ZLIB:INTERNAL=[optimized;C:/vcpkg/installed/x86-windows/lib/zlib.lib;debug;C:/vcpkg/installed/x86-windows/debug/lib/zlibd.lib][C:/vcpkg/installed/x86-windows/include][v1.2.11(1)]
 //ADVANCED property for variable: GDAL_LIBRARY_DEBUG
 GDAL_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: GDAL_LIBRARY_RELEASE
@@ -424,6 +446,20 @@ ZLIB_INCLUDE_DIR-ADVANCED:INTERNAL=1
 ZLIB_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: ZLIB_LIBRARY_RELEASE
 ZLIB_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
+//Last used Boost_COMPILER value.
+_Boost_COMPILER_LAST:INTERNAL=-vc140
+//Components requested for this build tree.
+_Boost_COMPONENTS_SEARCHED:INTERNAL=regex
+//Last used Boost_INCLUDE_DIR value.
+_Boost_INCLUDE_DIR_LAST:INTERNAL=C:/vcpkg/installed/x86-windows/include
+//Last used Boost_LIBRARY_DIR_RELEASE value.
+_Boost_LIBRARY_DIR_RELEASE_LAST:INTERNAL=C:/vcpkg/installed/x86-windows/lib
+//Last used Boost_NAMESPACE value.
+_Boost_NAMESPACE_LAST:INTERNAL=boost
+//Last used Boost_USE_MULTITHREADED value.
+_Boost_USE_MULTITHREADED_LAST:INTERNAL=ON
+//Last used Boost_USE_STATIC_LIBS value.
+_Boost_USE_STATIC_LIBS_LAST:INTERNAL=OFF
 //Making sure VCPKG_MANIFEST_MODE doesn't change
 _INTERNAL_CHECK_VCPKG_MANIFEST_MODE:INTERNAL=OFF
 //The path to the PowerShell implementation to use.
