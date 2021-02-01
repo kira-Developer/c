@@ -99,4 +99,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/DigitalClock.dir/DependInfo.cmake"
   "CMakeFiles/StudentRecordManagementSystem.dir/DependInfo.cmake"
   "CMakeFiles/WinSock2.dir/DependInfo.cmake"
+  "CMakeFiles/server.dir/DependInfo.cmake"
+  "CMakeFiles/client.dir/DependInfo.cmake"
   )

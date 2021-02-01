@@ -86,6 +86,8 @@ all: CMakeFiles\GreatValue.dir\all
 all: CMakeFiles\DigitalClock.dir\all
 all: CMakeFiles\StudentRecordManagementSystem.dir\all
 all: CMakeFiles\WinSock2.dir\all
+all: CMakeFiles\server.dir\all
+all: CMakeFiles\client.dir\all
 
 .PHONY : all
 
@@ -124,6 +126,8 @@ clean: CMakeFiles\GreatValue.dir\clean
 clean: CMakeFiles\DigitalClock.dir\clean
 clean: CMakeFiles\StudentRecordManagementSystem.dir\clean
 clean: CMakeFiles\WinSock2.dir\clean
+clean: CMakeFiles\server.dir\clean
+clean: CMakeFiles\client.dir\clean
 
 .PHONY : clean
 
@@ -782,7 +786,7 @@ CMakeFiles\ReadingFiles.dir\clean:
 CMakeFiles\getDataFromGithub.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\getDataFromGithub.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\getDataFromGithub.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\getDataFromGithub.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\getDataFromGithub.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\kira\Desktop\C\cmake-build-debug\CMakeFiles --progress-num=57,58 "Built target getDataFromGithub"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\kira\Desktop\C\cmake-build-debug\CMakeFiles --progress-num=59,60 "Built target getDataFromGithub"
 .PHONY : CMakeFiles\getDataFromGithub.dir\all
 
 # Build rule for subdir invocation for target.
@@ -909,6 +913,60 @@ WinSock2: CMakeFiles\WinSock2.dir\rule
 CMakeFiles\WinSock2.dir\clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\WinSock2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\WinSock2.dir\clean
 .PHONY : CMakeFiles\WinSock2.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/server.dir
+
+# All Build rule for target.
+CMakeFiles\server.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\server.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\server.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\server.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\server.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\kira\Desktop\C\cmake-build-debug\CMakeFiles --progress-num=61,62 "Built target server"
+.PHONY : CMakeFiles\server.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\server.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kira\Desktop\C\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\server.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kira\Desktop\C\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\server.dir\rule
+
+# Convenience name for target.
+server: CMakeFiles\server.dir\rule
+
+.PHONY : server
+
+# clean rule for target.
+CMakeFiles\server.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\server.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\server.dir\clean
+.PHONY : CMakeFiles\server.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/client.dir
+
+# All Build rule for target.
+CMakeFiles\client.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\client.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\client.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\client.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\client.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\kira\Desktop\C\cmake-build-debug\CMakeFiles --progress-num=57,58 "Built target client"
+.PHONY : CMakeFiles\client.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\client.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kira\Desktop\C\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\client.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kira\Desktop\C\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\client.dir\rule
+
+# Convenience name for target.
+client: CMakeFiles\client.dir\rule
+
+.PHONY : client
+
+# clean rule for target.
+CMakeFiles\client.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\client.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\client.dir\clean
+.PHONY : CMakeFiles\client.dir\clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -491,6 +491,32 @@ WinSock2\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\WinSock2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\WinSock2.dir\build
 .PHONY : WinSock2\fast
 
+#=============================================================================
+# Target rules for targets named server
+
+# Build rule for target.
+server: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) server
+.PHONY : server
+
+# fast build rule for target.
+server\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\server.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\server.dir\build
+.PHONY : server\fast
+
+#=============================================================================
+# Target rules for targets named client
+
+# Build rule for target.
+client: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) client
+.PHONY : client
+
+# fast build rule for target.
+client\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\client.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\client.dir\build
+.PHONY : client\fast
+
 Applications\DigitalClock.obj: Applications\DigitalClock.c.obj
 
 .PHONY : Applications\DigitalClock.obj
@@ -923,6 +949,60 @@ HackingTools\WinSock2.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\WinSock2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\WinSock2.dir\HackingTools\WinSock2.c.s
 .PHONY : HackingTools\WinSock2.c.s
 
+HackingTools\client.obj: HackingTools\client.c.obj
+
+.PHONY : HackingTools\client.obj
+
+# target to build an object file
+HackingTools\client.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\client.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\client.dir\HackingTools\client.c.obj
+.PHONY : HackingTools\client.c.obj
+
+HackingTools\client.i: HackingTools\client.c.i
+
+.PHONY : HackingTools\client.i
+
+# target to preprocess a source file
+HackingTools\client.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\client.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\client.dir\HackingTools\client.c.i
+.PHONY : HackingTools\client.c.i
+
+HackingTools\client.s: HackingTools\client.c.s
+
+.PHONY : HackingTools\client.s
+
+# target to generate assembly for a file
+HackingTools\client.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\client.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\client.dir\HackingTools\client.c.s
+.PHONY : HackingTools\client.c.s
+
+HackingTools\server.obj: HackingTools\server.c.obj
+
+.PHONY : HackingTools\server.obj
+
+# target to build an object file
+HackingTools\server.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\server.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\server.dir\HackingTools\server.c.obj
+.PHONY : HackingTools\server.c.obj
+
+HackingTools\server.i: HackingTools\server.c.i
+
+.PHONY : HackingTools\server.i
+
+# target to preprocess a source file
+HackingTools\server.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\server.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\server.dir\HackingTools\server.c.i
+.PHONY : HackingTools\server.c.i
+
+HackingTools\server.s: HackingTools\server.c.s
+
+.PHONY : HackingTools\server.s
+
+# target to generate assembly for a file
+HackingTools\server.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\server.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\server.dir\HackingTools\server.c.s
+.PHONY : HackingTools\server.c.s
+
 IfStatement.obj: IfStatement.c.obj
 
 .PHONY : IfStatement.obj
@@ -1310,7 +1390,9 @@ help:
 	@echo ... WinSock2
 	@echo ... WorkingWithNumbers
 	@echo ... WritingFiles
+	@echo ... client
 	@echo ... getDataFromGithub
+	@echo ... server
 	@echo ... Applications/DigitalClock.obj
 	@echo ... Applications/DigitalClock.i
 	@echo ... Applications/DigitalClock.s
@@ -1359,6 +1441,12 @@ help:
 	@echo ... HackingTools/WinSock2.obj
 	@echo ... HackingTools/WinSock2.i
 	@echo ... HackingTools/WinSock2.s
+	@echo ... HackingTools/client.obj
+	@echo ... HackingTools/client.i
+	@echo ... HackingTools/client.s
+	@echo ... HackingTools/server.obj
+	@echo ... HackingTools/server.i
+	@echo ... HackingTools/server.s
 	@echo ... IfStatement.obj
 	@echo ... IfStatement.i
 	@echo ... IfStatement.s
